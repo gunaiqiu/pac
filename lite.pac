@@ -6,6 +6,7 @@ if (
  shExpMatch(url,"*cloudflare*") ||
  shExpMatch(url,"*stripe.com*") ||
  shExpMatch(url,"*geolocation.onetrust.com*") ||
+ shExpMatch(url,"*jsdelivr*") ||
  shExpMatch(url,"*doubleclick*")
  )
  {
