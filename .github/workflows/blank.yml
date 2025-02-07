@@ -17,6 +17,6 @@ jobs:
       - name: get file from other and modify
         run: |
           wget $(curl -s https://api.github.com/repos/iBug/pac/releases/latest|grep gfwlist-ipdeny|grep browser|cut -d ":" -f2,3|tr -d "\" ")
-          gzip -d *.gz
-          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:7897; DIRECT' pac-gfwlist-ipdeny.com.txt
+          gzip -d pac-gfwlist-ipdeny.com.txt.gz
+          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:7897; DIRECT/' pac-gfwlist-ipdeny.com.txt
           mv pac-gfwlist-ipdeny.com.txt proxy.pac
