@@ -11,6 +11,7 @@ if (
  shExpMatch(url,"*geolocation.onetrust.com*") ||
  shExpMatch(url,"*jsdelivr*") ||
  shExpMatch(url,"*wikipedia*") ||
+ shExpMatch(url,"*wikimedia*") ||
  shExpMatch(url,"*doubleclick*")
  )
  {
