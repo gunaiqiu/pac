@@ -3,6 +3,8 @@ if (
  shExpMatch(url,"*google.com*") ||
  shExpMatch(url,"*youtube.com*") ||
  shExpMatch(url,"*googlevideo.com*") ||
+ shExpMatch(url,"*ytimg.com*") ||
+ shExpMatch(url,"*ggpht.com*") ||
  shExpMatch(url,"*github*") ||
  shExpMatch(url,"*cloudflare*") ||
  shExpMatch(url,"*stripe.com*") ||
