@@ -12,6 +12,7 @@ if (
  shExpMatch(url,"*jsdelivr*") ||
  shExpMatch(url,"*v2ex*") ||
  shExpMatch(url,"*x.com*") ||
+ shExpMatch(url,"*twitter*") ||
  shExpMatch(url,"*facebook*") ||
  shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*wikimedia*") ||
