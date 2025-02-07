@@ -16,6 +16,7 @@ if (
  shExpMatch(url,"*facebook*") ||
  shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*wikimedia*") ||
+ shExpMatch(url,"*iterm2.com*") ||
  shExpMatch(url,"*doubleclick*")
  )
  {
