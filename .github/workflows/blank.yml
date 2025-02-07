@@ -1,27 +1,62 @@
-name: Generate PAC From iBug/pac
+name: sync pac file from iBug/pac
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_dispatch:
+  push: 
+    branches: [ master ]
   schedule:
-    - cron: "0 12 * * 6"  # 8 PM CST every Saturday
-
+    - cron:  '30 19 * * *'
+    
 permissions:
   contents: write
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
     steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: download the pac list
+      run: |
+          wget $(curl -s https://api.github.com/repos/iBug/pac/releases/latest|grep gfwlist-ipdeny|grep browser|cut -d ":" -f2,3|tr -d "\" ")
+    - name: unzip file
+      run: |
+          gzip -d pac-gfwlist-ipdeny.com.txt.gz
+    - name: modify file
+      run: |
+          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:7897; DIRECT/' pac-gfwlist-ipdeny.com.txt
+    - name: rename file
+      run: |
+          mv pac-gfwlist-ipdeny.com.txt proxy.pac
+    - name: Commit files
+      id: commit-files
+      run: |
+          if [ -n "$(git status --porcelain proxy.pac)" ]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "pull newest list"
+            echo "hasChange=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected"
+          fi       
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      if: ${{ steps.commit-files.outputs.hasChange == 'true' }}
+      with:
+        github_token: ${{ secrets.PERSON_TOKEN }}
+        branch: 'master'
+        repository: 'gunaiqiu/pac'
+
+
+
+
+
+
+
       - shell: bash
         run: |
-          wget $(curl -s https://api.github.com/repos/iBug/pac/releases/latest|grep gfwlist-ipdeny|grep browser|cut -d ":" -f2,3|tr -d "\" ")
-          gzip -d pac-gfwlist-ipdeny.com.txt.gz
-          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:7897; DIRECT/' pac-gfwlist-ipdeny.com.txt
-          mv pac-gfwlist-ipdeny.com.txt proxy.pac
-      - name: Update PAC File
-        uses: actions/upload-artifact@v4
-        with: 
-          name: final_output
-          path: proxy.pac
-    
+
+
+
