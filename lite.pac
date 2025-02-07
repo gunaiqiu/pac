@@ -4,6 +4,8 @@ if (
  shExpMatch(url,"*youtube*") ||
  shExpMatch(url,"*github*") ||
  shExpMatch(url,"*cloudflare*") ||
+ shExpMatch(url,"*stripe.com*") ||
+ shExpMatch(url,"*stripe.com*") ||
  shExpMatch(url,"*doubleclick*")
  )
  {
