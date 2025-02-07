@@ -1,12 +1,14 @@
 function FindProxyForURL(url, host) {
 if (
- shExpMatch(url,"*google*") ||
- shExpMatch(url,"*youtube*") ||
+ shExpMatch(url,"*google.com*") ||
+ shExpMatch(url,"*youtube.com*") ||
+ shExpMatch(url,"*googlevideo.com*") ||
  shExpMatch(url,"*github*") ||
  shExpMatch(url,"*cloudflare*") ||
  shExpMatch(url,"*stripe.com*") ||
  shExpMatch(url,"*geolocation.onetrust.com*") ||
  shExpMatch(url,"*jsdelivr*") ||
+ shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*doubleclick*")
  )
  {
