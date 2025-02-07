@@ -4,7 +4,7 @@ if (
  shExpMatch(url,"*youtube*") ||
  shExpMatch(url,"*github*") ||
  shExpMatch(url,"*cloudflare*") ||
- shExpMatch(url,"*telegram*")
+ shExpMatch(url,"*doubleclick*")
  )
  {
  return "SOCKS localhost:7897";
