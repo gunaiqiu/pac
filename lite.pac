@@ -10,6 +10,7 @@ if (
  shExpMatch(url,"*stripe.com*") ||
  shExpMatch(url,"*geolocation.onetrust.com*") ||
  shExpMatch(url,"*jsdelivr*") ||
+ shExpMatch(url,"*v2ex*") ||
  shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*wikimedia*") ||
  shExpMatch(url,"*doubleclick*")
