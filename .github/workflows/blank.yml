@@ -46,7 +46,7 @@ jobs:
       if: ${{ steps.commit-files.outputs.hasChange == 'true' }}
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'master'
+        branch: 'main'
         repository: 'gunaiqiu/pac'
 
 
