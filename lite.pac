@@ -14,6 +14,7 @@ if (
  shExpMatch(url,"*x.com*") ||
  shExpMatch(url,"*twitter*") ||
  shExpMatch(url,"*facebook*") ||
+ shExpMatch(url,"*openai*") ||
  shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*wikimedia*") ||
  shExpMatch(url,"*iterm2.com*") ||
