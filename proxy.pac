@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-02-01T12:17:54
+// Time: 2025-02-08T12:18:12
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -3901,6 +3901,7 @@ var CHINA = [
   [0xA335A000, 0xFFFFF000], // 163.53.160.0/20
   [0xA335BC00, 0xFFFFFC00], // 163.53.188.0/22
   [0xA335F000, 0xFFFFFC00], // 163.53.240.0/22
+  [0xA33D3E00, 0xFFFFFE00], // 163.61.62.0/23
   [0xA37D0000, 0xFFFF0000], // 163.125.0.0/16
   [0xA38E0000, 0xFFFF0000], // 163.142.0.0/16
   [0xA3B10000, 0xFFFF0000], // 163.177.0.0/16
@@ -6727,6 +6728,7 @@ var DOMAINS = {
     "internetpopculture": 0,
     "inthenameofconfuciusmovie": 0,
     "inxian": 0,
+    "ipdefenseforum": 0,
     "iphone4hongkong": 0,
     "iphonehacks": 0,
     "ippotv": 0,
@@ -6952,6 +6954,7 @@ var DOMAINS = {
     "niusnews": 0,
     "njuice": 0,
     "nlfreevpn": 0,
+    "nodeseek": 0,
     "nokola": 0,
     "nordvpn": 0,
     "novelasia": 0,
@@ -7878,6 +7881,7 @@ var DOMAINS = {
     "graphql": 0,
     "greatfirewallofchina": 0,
     "greenpeace": 0,
+    "greasyfork": 0,
     "gwins": 0,
     "clementine-player": 0,
     "grangorz": 0,
@@ -8362,6 +8366,7 @@ var DOMAINS = {
       "bookwalker": 0,
       "businesstoday": 0,
       "cna": 0,
+      "ctitv": 0,
       "cts": 0,
       "cw": 0,
       "ddc": 0,
@@ -8516,6 +8521,7 @@ var DOMAINS = {
       "kinmen": 0,
       "ait": 0,
       "catholic": 0,
+      "ccfd": 0,
       "cmi": 0,
       "coolloud": 0,
       "ct": 0,
@@ -8593,7 +8599,9 @@ var DOMAINS = {
   },
   "mil": {
     "darpa": 0,
+    "dfas": 0,
     "dma": 0,
+    "pacom": 0,
     "soc": 0,
     "uscg": 0,
     "usfk": 0,
@@ -8601,7 +8609,6 @@ var DOMAINS = {
     "af": 0,
     "arlingtoncemetery": 0,
     "army": 0,
-    "dfas": 0,
     "dtic": 0,
     "navy": {
       "navyfamily": 0,
@@ -9167,6 +9174,7 @@ var DOMAINS = {
     "america": {
       "share": 0
     },
+    "americorps": 0,
     "nasa": {
       "jpl": 0,
       "pds": 0,
@@ -9598,6 +9606,7 @@ var DOMAINS = {
       "yasni": 0
     },
     "org": {
+      "csw": 0,
       "hkip": 0,
       "proxynetwork": 0,
       "proxylist": 0
@@ -10400,7 +10409,6 @@ var BLACKPAT = [
   "*.twitter.com*",
   "*.gov.tw*",
   "https://aiss.anws.gov.tw*",
-  "http://www.americorps.gov*",
   "*iipdigital.usembassy.gov*",
   "http://tarr.uspto.gov/*",
   "*cn.voa.mobi*",
@@ -11078,12 +11086,8 @@ var BLACKPAT = [
   "*.crossthewall.net*",
   "*.crossvpn.net*",
   "*csdparty.com*",
-  "*.csw.org.uk*",
-  "*.ct.org.tw*",
   "*.ctao.org*",
   "*.ctfriend.net*",
-  "*.ctitv.com.tw*",
-  "*.cts.com.tw*",
   "http://library.usc.cuhk.edu.hk/*",
   "http://mjlsh.usc.cuhk.edu.hk/*",
   "*.cuhkacs.org/~benng*",
@@ -11600,7 +11604,6 @@ var BLACKPAT = [
   "http://www.gmiddle.net*",
   "*.gmll.org*",
   "*go-pki.com*",
-  "*gobet.cc*",
   "*godfootsteps.org*",
   "*godns.work*",
   "*godsdirectcontact.co.uk*",
@@ -12435,7 +12438,6 @@ var BLACKPAT = [
   "*.noypf.com*",
   "*.npnt.me*",
   "http://npnt.me*",
-  "*.nps.gov*",
   "*.nradio.me*",
   "http://nradio.me*",
   "*.nrk.no*",
@@ -12981,7 +12983,6 @@ var BLACKPAT = [
   "http://stackoverflow.com/users/895245*",
   "*.stage64.hk*",
   "*stanford.edu/group/falun*",
-  "*usinfo.state.gov*",
   "*.starfishfx.com*",
   "*.starp2p.com*",
   "*.startpage.com*",
