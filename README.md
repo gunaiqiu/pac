@@ -6,4 +6,4 @@ git commit -a -m "update lite.pac"
 proxy;git push
 
 One Line:
-vim lite.pac;proxy;git commit -a -m "update lite.pac";git push;watch curl -s https://pac.ywboy.top/lite.pac 
+proxy;vim lite.pac;proxy;git commit -a -m "update lite.pac";git push;watch curl -s https://pac.ywboy.top/lite.pac 
