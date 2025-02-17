@@ -6,7 +6,7 @@ if (
  shExpMatch(url,"*ytimg.com*") ||
  shExpMatch(url,"*ggpht.com*") ||
  shExpMatch(url,"*github*") ||
- shExpMatch(url,"*cloudflare*") ||
+ shExpMatch(url,"*cloudflare.com*") ||
  shExpMatch(url,"*stripe.com*") ||
  shExpMatch(url,"*geolocation.onetrust.com*") ||
  shExpMatch(url,"*jsdelivr*") ||
