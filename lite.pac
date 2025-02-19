@@ -16,6 +16,7 @@ if (
  shExpMatch(url,"*facebook*") ||
  shExpMatch(url,"*openai.com*") ||
  shExpMatch(url,"*comma.ai*") ||
+ shExpMatch(url,"*lmsys.org*") ||
  shExpMatch(url,"*jenkins.comma.life*") ||
  shExpMatch(url,"*chatgpt.com*") ||
  shExpMatch(url,"*discord.com*") ||
