@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-02-15T12:18:20
+// Time: 2025-02-22T12:18:09
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -3161,7 +3161,6 @@ var CHINA = [
   [0x72770000, 0xFFFF8000], // 114.119.0.0/17
   [0x7277C000, 0xFFFFC000], // 114.119.192.0/18
   [0x72840000, 0xFFFF0000], // 114.132.0.0/16
-  [0x7286B800, 0xFFFFFC00], // 114.134.184.0/22
   [0x7286BC00, 0xFFFFFE00], // 114.134.188.0/23
   [0x72870000, 0xFFFF0000], // 114.135.0.0/16
   [0x728A0000, 0xFFFE0000], // 114.138.0.0/15
@@ -3902,6 +3901,9 @@ var CHINA = [
   [0xA335F000, 0xFFFFFC00], // 163.53.240.0/22
   [0xA33D3E00, 0xFFFFFE00], // 163.61.62.0/23
   [0xA33D7100, 0xFFFFFF00], // 163.61.113.0/24
+  [0xA33DB200, 0xFFFFFE00], // 163.61.178.0/23
+  [0xA33DCA00, 0xFFFFFE00], // 163.61.202.0/23
+  [0xA33DD600, 0xFFFFFE00], // 163.61.214.0/23
   [0xA37D0000, 0xFFFF0000], // 163.125.0.0/16
   [0xA38E0000, 0xFFFF0000], // 163.142.0.0/16
   [0xA3B10000, 0xFFFF0000], // 163.177.0.0/16
@@ -7023,6 +7025,7 @@ var DOMAINS = {
     "picturedip": {
       "img*": 0
     },
+    "picuki": 0,
     "pigav": 0,
     "pin-cong": 0,
     "pin6": 0,
@@ -8595,7 +8598,8 @@ var DOMAINS = {
       "coinrail": 0,
       "epochtimes": 0,
       "pinterest": 0
-    }
+    },
+    "news1": 0
   },
   "mil": {
     "darpa": 0,
@@ -9783,6 +9787,11 @@ var DOMAINS = {
     "hidemy": 0,
     "psblog": 0
   },
+  "icu": {
+    "611study": 0,
+    "unstable": 0,
+    "xixicui": 0
+  },
   "world": {
     "6do": 0
   },
@@ -10032,10 +10041,6 @@ var DOMAINS = {
     "net": {
       "trt": 0
     }
-  },
-  "icu": {
-    "unstable": 0,
-    "xixicui": 0
   },
   "va": {
     "vaticannews": 0
@@ -13010,7 +13015,6 @@ var BLACKPAT = [
   "*tw.streetvoice.com*",
   "*.strikingly.com*",
   "*.strongwindpress.com*",
-  "*.student.tw/db*",
   "*stupidvideos.com*",
   "*.successfn.com*",
   "*panamapapers.sueddeutsche.de*",
