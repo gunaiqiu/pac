@@ -8,4 +8,4 @@
 #proxy;git push
 
 #One Line:
-proxy;vim lite.pac;proxy;git commit -a -m "update lite.pac";git push;watch curl -s https://pac.ywboy.top/lite.pac 
+source ~/.zshrc;proxy;vim lite.pac;proxy;git commit -a -m "update lite.pac";git push;watch curl -s https://pac.ywboy.top/lite.pac
