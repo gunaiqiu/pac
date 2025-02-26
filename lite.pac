@@ -21,6 +21,7 @@ if (
  shExpMatch(url,"*jenkins.comma.life*") ||
  shExpMatch(url,"*chatgpt.com*") ||
  shExpMatch(url,"*discord.com*") ||
+ shExpMatch(url,"*docker.com*") ||
  shExpMatch(url,"*wikipedia*") ||
  shExpMatch(url,"*wikimedia*") ||
  shExpMatch(url,"*iterm2.com*") ||
