@@ -8,6 +8,7 @@ if (
  shExpMatch(url,"*github*") ||
  shExpMatch(url,"*workos.com*") ||
  shExpMatch(url,"*cursor.com*") ||
+ shExpMatch(url,"*authenticator.cursor.sh*") ||
  shExpMatch(url,"*li.nux.ro*") ||
  shExpMatch(url,"*cloudflare.com*") ||
  shExpMatch(url,"*stripe.com*") ||
