@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-02-22T12:18:09
+// Time: 2025-03-01T12:19:12
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2198,7 +2198,6 @@ var CHINA = [
   [0x678EF800, 0xFFFFFE00], // 103.142.248.0/23
   [0x678F1000, 0xFFFFFC00], // 103.143.16.0/22
   [0x678F4A00, 0xFFFFFE00], // 103.143.74.0/23
-  [0x678F7800, 0xFFFFFE00], // 103.143.120.0/23
   [0x678F7C00, 0xFFFFFE00], // 103.143.124.0/23
   [0x678F8400, 0xFFFFFC00], // 103.143.132.0/22
   [0x678FAE00, 0xFFFFFE00], // 103.143.174.0/23
@@ -5660,6 +5659,7 @@ var DOMAINS = {
     "here": {
       "wego": 0
     },
+    "grok": 0,
     "hmoegirl": 0,
     "hmvdigital": 0,
     "homedepot": 0,
@@ -8547,6 +8547,7 @@ var DOMAINS = {
       "yam": 0
     },
     "civilmedia": 0,
+    "cofacts": 0,
     "culture": 0,
     "dcard": 0,
     "net": {
@@ -9831,6 +9832,10 @@ var DOMAINS = {
   "st": {
     "br": 0
   },
+  "network": {
+    "bsky": 0,
+    "fanqiang": 0
+  },
   "tl": {
     "bx": 0,
     "mtw": 0
@@ -9860,9 +9865,6 @@ var DOMAINS = {
   },
   "ie": {
     "epochtimes": 0
-  },
-  "network": {
-    "fanqiang": 0
   },
   "audio": {
     "fish": 0
