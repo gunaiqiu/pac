@@ -33,7 +33,7 @@ if (
  shExpMatch(url,"*doubleclick*")
  )
  {
- return "SOCKS localhost:7897";
+ return "SOCKS rpi.ywboy.top:7897";
  }
  
  return "DIRECT";
