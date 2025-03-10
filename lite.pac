@@ -3,6 +3,7 @@ if (
  shExpMatch(url,"*google.com*") ||
  shExpMatch(url,"*oracle.com*") ||
  shExpMatch(url,"*manus.im*") ||
+ shExpMatch(url,"*console-api.aws.amazon.com*") ||
  shExpMatch(url,"*youtube.com*") ||
  shExpMatch(url,"*googlevideo.com*") ||
  shExpMatch(url,"*ytimg.com*") ||
