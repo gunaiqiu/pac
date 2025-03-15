@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-03-08T12:15:28
+// Time: 2025-03-15T12:19:20
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2198,6 +2198,7 @@ var CHINA = [
   [0x678EF800, 0xFFFFFE00], // 103.142.248.0/23
   [0x678F1000, 0xFFFFFC00], // 103.143.16.0/22
   [0x678F4A00, 0xFFFFFE00], // 103.143.74.0/23
+  [0x678F7800, 0xFFFFFE00], // 103.143.120.0/23
   [0x678F7C00, 0xFFFFFE00], // 103.143.124.0/23
   [0x678F8400, 0xFFFFFC00], // 103.143.132.0/22
   [0x678FAE00, 0xFFFFFE00], // 103.143.174.0/23
@@ -3910,6 +3911,7 @@ var CHINA = [
   [0xA3CC0000, 0xFFFF0000], // 163.204.0.0/16
   [0xA3DF1C00, 0xFFFFFE00], // 163.223.28.0/23
   [0xA3DF2000, 0xFFFFFE00], // 163.223.32.0/23
+  [0xA3DF4400, 0xFFFFFE00], // 163.223.68.0/23
   [0xA3E40000, 0xFFFF0000], // 163.228.0.0/16
   [0xA4340000, 0xFFFF8000], // 164.52.0.0/17
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
@@ -5711,6 +5713,7 @@ var DOMAINS = {
     "breakwall": 0,
     "bumingbai": 0,
     "bwh1": 0,
+    "cachefly": 0,
     "colacloud": 0,
     "cablegatesearch": 0,
     "catch22": 0,
@@ -6096,7 +6099,9 @@ var DOMAINS = {
     "olehdtv": 0,
     "onapp": 0,
     "ontrac": 0,
-    "openai": 0,
+    "openai": {
+      "chat": 0
+    },
     "pandora": 0,
     "parkansky": 0,
     "pure18": 0,
@@ -6108,7 +6113,9 @@ var DOMAINS = {
     "shiksha": 0,
     "slacker": 0,
     "sm-miracle": 0,
-    "spotify": 0,
+    "spotify": {
+      "open": 0
+    },
     "springboardplatform": 0,
     "superokayama": 0,
     "superpages": 0,
@@ -6623,6 +6630,7 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "bearteach": 0,
     "blocktempo": 0,
     "babylonbee": 0,
     "backchina": 0,
@@ -6707,6 +6715,7 @@ var DOMAINS = {
     "buzzorange": 0,
     "buzzsprout": 0,
     "bvpn": 0,
+    "cachefly": 0,
     "campaign-archive": 0,
     "cfsh99": {
       "zh-hans": 0
@@ -6877,6 +6886,7 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "ft": 0,
     "facebookquotes4u": 0,
     "facesofnyfw": 0,
     "fallenark": 0,
@@ -7657,6 +7667,7 @@ var DOMAINS = {
     "surfshark": 0,
     "sydneytoday": 0,
     "syncback": 0,
+    "tg-me": 0,
     "twkan": 0,
     "streamguys1": {
       "tunein": 0
@@ -8257,6 +8268,7 @@ var DOMAINS = {
     "etizer": 0,
     "exhentai": 0,
     "exmormon": 0,
+    "factchecklab": 0,
     "freess": 0,
     "f-droid": 0,
     "factpedia": 0,
@@ -8288,6 +8300,8 @@ var DOMAINS = {
     "frontlinedefenders": 0,
     "fscked": 0,
     "futuremessage": 0,
+    "getsession": 0,
+    "gdaily": 0,
     "gfwatch": 0,
     "gardennetworks": 0,
     "getfoxyproxy": 0,
@@ -8508,7 +8522,6 @@ var DOMAINS = {
     "tbsn": 0,
     "tew": 0,
     "thechinacollection": 0,
-    "themoviedb": 0,
     "thepiratebay": 0,
     "thewgo": 0,
     "thirdmill": 0,
@@ -8798,7 +8811,8 @@ var DOMAINS = {
     "mlc": 0,
     "perplexity": 0,
     "suno": 0,
-    "wombo": 0
+    "wombo": 0,
+    "x": 0
   },
   "tw": {
     "com": {
@@ -9378,6 +9392,7 @@ var DOMAINS = {
   "pro": {
     "popai": 0,
     "huobi": 0,
+    "cutout": 0,
     "net-fits": 0,
     "plexvpn": 0
   },
@@ -9427,6 +9442,7 @@ var DOMAINS = {
     "overcast": 0,
     "ping": 0,
     "player": 0,
+    "soundon": 0,
     "tweetmylast": 0
   },
   "vn": {
@@ -9596,13 +9612,6 @@ var DOMAINS = {
     "tokenlon": 0,
     "zpn": 0
   },
-  "run": {
-    "comfastgpt": {
-      "feedly": 0
-    },
-    "fastgpt": 0,
-    "mangmang": 0
-  },
   "site": {
     "free-ss": 0,
     "wingy": 0
@@ -9751,6 +9760,7 @@ var DOMAINS = {
   },
   "one": {
     "big": 0,
+    "2047": 0,
     "metacubex": {
       "wiki": 0
     }
@@ -9931,6 +9941,7 @@ var DOMAINS = {
     "comments": 0,
     "bsky": 0,
     "glarity": 0,
+    "netlify": 0,
     "rsshub": 0,
     "vercel": 0
   },
@@ -10194,6 +10205,9 @@ var DOMAINS = {
         "addons": 0
       }
     }
+  },
+  "run": {
+    "mangmang": 0
   },
   "town": {
     "matters": 0
