@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-03-15T12:19:20
+// Time: 2025-03-22T12:19:22
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -1988,7 +1988,6 @@ var CHINA = [
   [0x676F4000, 0xFFFFFC00], // 103.111.64.0/22
   [0x676FAC00, 0xFFFFFC00], // 103.111.172.0/22
   [0x676FFC00, 0xFFFFFC00], // 103.111.252.0/22
-  [0x67701C00, 0xFFFFFC00], // 103.112.28.0/22
   [0x67704400, 0xFFFFFC00], // 103.112.68.0/22
   [0x67704800, 0xFFFFFC00], // 103.112.72.0/22
   [0x67705800, 0xFFFFF800], // 103.112.88.0/21
@@ -2007,7 +2006,6 @@ var CHINA = [
   [0x67724400, 0xFFFFFC00], // 103.114.68.0/22
   [0x67724800, 0xFFFFFC00], // 103.114.72.0/22
   [0x67726400, 0xFFFFFC00], // 103.114.100.0/22
-  [0x67728400, 0xFFFFFC00], // 103.114.132.0/22
   [0x67729400, 0xFFFFFC00], // 103.114.148.0/22
   [0x67729C00, 0xFFFFFC00], // 103.114.156.0/22
   [0x6772B000, 0xFFFFFC00], // 103.114.176.0/22
@@ -3795,7 +3793,6 @@ var CHINA = [
   [0x9D0F6800, 0xFFFFFE00], // 157.15.104.0/23
   [0x9D0FC800, 0xFFFFFE00], // 157.15.200.0/23
   [0x9D120000, 0xFFFF0000], // 157.18.0.0/16
-  [0x9D142100, 0xFFFFFF00], // 157.20.33.0/24
   [0x9D148800, 0xFFFFFE00], // 157.20.136.0/23
   [0x9D14C200, 0xFFFFFE00], // 157.20.194.0/23
   [0x9D14F600, 0xFFFFFE00], // 157.20.246.0/23
@@ -3912,6 +3909,10 @@ var CHINA = [
   [0xA3DF1C00, 0xFFFFFE00], // 163.223.28.0/23
   [0xA3DF2000, 0xFFFFFE00], // 163.223.32.0/23
   [0xA3DF4400, 0xFFFFFE00], // 163.223.68.0/23
+  [0xA3DF7C00, 0xFFFFFE00], // 163.223.124.0/23
+  [0xA3DF9C00, 0xFFFFFE00], // 163.223.156.0/23
+  [0xA3DFAD00, 0xFFFFFF00], // 163.223.173.0/24
+  [0xA3DFB200, 0xFFFFFE00], // 163.223.178.0/23
   [0xA3E40000, 0xFFFF0000], // 163.228.0.0/16
   [0xA4340000, 0xFFFF8000], // 164.52.0.0/17
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
@@ -6166,6 +6167,7 @@ var DOMAINS = {
     "xn--i2ru8q2qg": 0,
     "xn--noss43i": 0,
     "xn--9pr62r24a": 0,
+    "xn--ngstr-lra8j": 0,
     "abebooks": 0,
     "amazonaws": {
       "s3-ap-southeast-1": 0,
@@ -6478,7 +6480,6 @@ var DOMAINS = {
     "widevine": 0,
     "withgoogle": 0,
     "withyoutube": 0,
-    "xn--ngstr-lra8j": 0,
     "youtube": 0,
     "youtube-nocookie": 0,
     "youtubeeducation": 0,
@@ -7481,10 +7482,10 @@ var DOMAINS = {
     "whereiswerner": 0,
     "power": 0,
     "powerapple": 0,
-    "premeforwindows7": 0,
     "presentationzen": 0,
     "prestige-av": 0,
     "pritunl": 0,
+    "private": 0,
     "privateinternetaccess": 0,
     "privatepaste": 0,
     "privatetunnel": 0,
@@ -8149,6 +8150,7 @@ var DOMAINS = {
     "1984bbs": 0,
     "51jav": 0,
     "89-64": 0,
+    "aomedia": 0,
     "annas-archive": 0,
     "acgbox": 0,
     "aei": 0,
@@ -8459,6 +8461,7 @@ var DOMAINS = {
     "pureinsight": 0,
     "putty": 0,
     "vatn": 0,
+    "prcleader": 0,
     "privoxy": 0,
     "project-syndicate": 0,
     "pussthecat": {
@@ -12882,7 +12885,6 @@ var BLACKPAT = [
   "*powerapple.com*",
   "*heix.pp.ru*",
   "*.prisoneralert.com*",
-  "*.private.com/home*",
   "*privatepaste.com*",
   "*privatetunnel.com*",
   "*provideocoalition.com*",
