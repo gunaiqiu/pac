@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-03-29T12:19:52
+// Time: 2025-04-05T12:20:03
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2236,7 +2236,6 @@ var CHINA = [
   [0x67956E00, 0xFFFFFE00], // 103.149.110.0/23
   [0x67958400, 0xFFFFFE00], // 103.149.132.0/23
   [0x67959000, 0xFFFFFE00], // 103.149.144.0/23
-  [0x67959C00, 0xFFFFFE00], // 103.149.156.0/23
   [0x6795B500, 0xFFFFFF00], // 103.149.181.0/24
   [0x6795D200, 0xFFFFFE00], // 103.149.210.0/23
   [0x6795D600, 0xFFFFFE00], // 103.149.214.0/23
@@ -3911,6 +3910,8 @@ var CHINA = [
   [0xA3DF9C00, 0xFFFFFE00], // 163.223.156.0/23
   [0xA3DFAD00, 0xFFFFFF00], // 163.223.173.0/24
   [0xA3DFB200, 0xFFFFFE00], // 163.223.178.0/23
+  [0xA3DFD800, 0xFFFFFE00], // 163.223.216.0/23
+  [0xA3DFDE00, 0xFFFFFE00], // 163.223.222.0/23
   [0xA3E40000, 0xFFFF0000], // 163.228.0.0/16
   [0xA4340000, 0xFFFF8000], // 164.52.0.0/17
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
@@ -5747,7 +5748,8 @@ var DOMAINS = {
     "onapp": 0,
     "ontrac": 0,
     "openai": {
-      "chat": 0
+      "chat": 0,
+      "auth": 0
     },
     "pandora": 0,
     "parkansky": 0,
@@ -8441,6 +8443,7 @@ var DOMAINS = {
     "njactb": 0,
     "nokogiri": 0,
     "notepad-plus-plus": 0,
+    "opendesktop": 0,
     "october-review": 0,
     "ogaoga": 0,
     "ogate": 0,
