@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-04-12T12:19:56
+// Time: 2025-04-19T12:19:58
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2032,7 +2032,6 @@ var CHINA = [
   [0x67751000, 0xFFFFFC00], // 103.117.16.0/22
   [0x67754800, 0xFFFFFC00], // 103.117.72.0/22
   [0x67755800, 0xFFFFFC00], // 103.117.88.0/22
-  [0x67758800, 0xFFFFFC00], // 103.117.136.0/22
   [0x6775BC00, 0xFFFFFC00], // 103.117.188.0/22
   [0x6775DC00, 0xFFFFFC00], // 103.117.220.0/22
   [0x67763400, 0xFFFFFC00], // 103.118.52.0/22
@@ -3913,6 +3912,9 @@ var CHINA = [
   [0xA3DFDE00, 0xFFFFFE00], // 163.223.222.0/23
   [0xA3E32200, 0xFFFFFE00], // 163.227.34.0/23
   [0xA3E32800, 0xFFFFFE00], // 163.227.40.0/23
+  [0xA3E34A00, 0xFFFFFE00], // 163.227.74.0/23
+  [0xA3E34C00, 0xFFFFFC00], // 163.227.76.0/22
+  [0xA3E35000, 0xFFFFFE00], // 163.227.80.0/23
   [0xA3E40000, 0xFFFF0000], // 163.228.0.0/16
   [0xA4340000, 0xFFFF8000], // 164.52.0.0/17
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
@@ -6000,6 +6002,7 @@ var DOMAINS = {
     "bbcchinese": 0,
     "bloomberg": 0,
     "bloombergview": 0,
+    "cloudflare-dns": 0,
     "dynu": 0,
     "accountkit": 0,
     "cdninstagram": 0,
@@ -6540,6 +6543,8 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "fani": 0,
+    "favcomic": 0,
     "ft": 0,
     "facebookquotes4u": 0,
     "facesofnyfw": 0,
@@ -6663,6 +6668,7 @@ var DOMAINS = {
     "gospelherald": 0,
     "gumroad": 0,
     "gunsamerica": 0,
+    "h-ciyuan": 0,
     "haiwaikan": 0,
     "haijiao": 0,
     "happy-vpn": 0,
@@ -7192,6 +7198,7 @@ var DOMAINS = {
     "rssmeme": 0,
     "rumble": 0,
     "rusvpn": 0,
+    "sotwe": 0,
     "ssrtool": 0,
     "silvergatebank": 0,
     "slides": 0,
@@ -8497,6 +8504,9 @@ var DOMAINS = {
     "rsf": 0,
     "rsf-chinese": 0,
     "rtalabel": 0,
+    "sagernet": {
+      "sing-box": 0
+    },
     "synapse": 0,
     "sehuatang": 0,
     "savetibet": 0,
@@ -8719,6 +8729,7 @@ var DOMAINS = {
     "landofhope": 0,
     "nbyy": 0,
     "ntd": 0,
+    "thotsbay": 0,
     "tou": 0,
     "tibetonline": 0,
     "top": 0,
@@ -9356,6 +9367,7 @@ var DOMAINS = {
     "humanparty": 0,
     "javfor": 0,
     "line": 0,
+    "manwa": 0,
     "mikanani": 0,
     "monocloud": 0,
     "netalert": 0,
@@ -9961,7 +9973,8 @@ var DOMAINS = {
     "safety": 0,
     "stories": 0,
     "sustainability": 0,
-    "tv": 0
+    "tv": 0,
+    "8888": 0
   },
   "page": {
     "business": 0,
@@ -10094,7 +10107,10 @@ var DOMAINS = {
   },
   "network": {
     "bsky": 0,
-    "fanqiang": 0
+    "fanqiang": 0,
+    "hysteria": {
+      "v2": 0
+    }
   },
   "tl": {
     "bx": 0,
@@ -10307,6 +10323,10 @@ var DOMAINS = {
   "video": {
     "rou": 0
   },
+  "fun": {
+    "ssm": 0,
+    "sosad": 0
+  },
   "nu": {
     "shadowsocks": {
       "secure": 0
@@ -10318,9 +10338,6 @@ var DOMAINS = {
       "singaporepools": 0,
       "zaobao": 0
     }
-  },
-  "fun": {
-    "sosad": 0
   },
   "camp": {
     "sss": 0
@@ -10712,6 +10729,55 @@ var BLACKPAT = [
   "*cn.uncyclopedia.wikia.com*",
   "*zh.uncyclopedia.wikia.com*",
   "*wikinews.org*",
+  "*z-library.sk*",
+  "*go-to-library.sk*",
+  "*1lib.cloud*",
+  "*1lib.sk*",
+  "*italian-books.sk*",
+  "*1lib.cz*",
+  "*1lib.domains*",
+  "*1lib.education*",
+  "*1lib.eu*",
+  "*1lib.limited*",
+  "*1lib.pl*",
+  "*1lib.to*",
+  "*1lib.tw*",
+  "*2lib.org*",
+  "*3lib.net*",
+  "*art1lib.com*",
+  "*b-ok.africa*",
+  "*b-ok.asia*",
+  "*b-ok.cc*",
+  "*b-ok.global*",
+  "*b-ok.org*",
+  "*book4you.org*",
+  "*bookfi.net*",
+  "*booksc.eu*",
+  "*booksc.me*",
+  "*booksc.org*",
+  "*booksc.xyz*",
+  "*bookshome.info*",
+  "*bookshome.net*",
+  "*bookshome.world*",
+  "*de1lib.org*",
+  "*hk1lib.org*",
+  "*libsolutions.app*",
+  "*libsolutions.domains*",
+  "*libsolutions.net*",
+  "*ma1lib.org*",
+  "*sg1lib.org*",
+  "*singlelogin.app*",
+  "*singlelogin.me*",
+  "*singlelogin.re*",
+  "*singlelogin.site*",
+  "*z-lib.org*",
+  "*z-lib.ps*",
+  "*z-lib.gd*",
+  "*z-lib.gs*",
+  "*z-library.se*",
+  "*zlib.life*",
+  "*zlibcdn.com*",
+  "*zlibcdn2.com*",
   "*.030buy.com*",
   "*.0rz.tw*",
   "http://0rz.tw*",
