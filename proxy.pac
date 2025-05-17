@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-05-10T12:20:57
+// Time: 2025-05-17T12:21:11
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -622,7 +622,11 @@ var CHINA = [
   [0x2BFFE000, 0xFFFFF800], // 43.255.224.0/21
   [0x2BFFE800, 0xFFFFFC00], // 43.255.232.0/22
   [0x2BFFF400, 0xFFFFFC00], // 43.255.244.0/22
-  [0x2D032000, 0xFFFFE000], // 45.3.32.0/19
+  [0x2D032000, 0xFFFFF000], // 45.3.32.0/20
+  [0x2D033000, 0xFFFFF800], // 45.3.48.0/21
+  [0x2D033800, 0xFFFFFC00], // 45.3.56.0/22
+  [0x2D033C00, 0xFFFFFE00], // 45.3.60.0/23
+  [0x2D033E00, 0xFFFFFF00], // 45.3.62.0/24
   [0x2D28C000, 0xFFFFC000], // 45.40.192.0/18
   [0x2D411000, 0xFFFFF000], // 45.65.16.0/20
   [0x2D52EC00, 0xFFFFFC00], // 45.82.236.0/22
@@ -3906,6 +3910,7 @@ var CHINA = [
   [0xA3E40000, 0xFFFF0000], // 163.228.0.0/16
   [0xA4340000, 0xFFFF8000], // 164.52.0.0/17
   [0xA5630400, 0xFFFFFF00], // 165.99.4.0/24
+  [0xA5632A00, 0xFFFFFE00], // 165.99.42.0/23
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
   [0xA78B0000, 0xFFFF0000], // 167.139.0.0/16
   [0xA7BD0000, 0xFFFF0000], // 167.189.0.0/16
@@ -5578,7 +5583,8 @@ var CHINA = [
   [0xDF740000, 0xFFFE0000], // 223.116.0.0/15
   [0xDF788000, 0xFFFF8000], // 223.120.128.0/17
   [0xDF798000, 0xFFFF8000], // 223.121.128.0/17
-  [0xDF7B8000, 0xFFFF8000], // 223.123.128.0/17
+  [0xDF7BD000, 0xFFFFF000], // 223.123.208.0/20
+  [0xDF7BE000, 0xFFFFE000], // 223.123.224.0/19
   [0xDF7C0000, 0xFFFC0000], // 223.124.0.0/14
   [0xDF800000, 0xFFFE0000], // 223.128.0.0/15
   [0xDF900000, 0xFFF00000], // 223.144.0.0/12
@@ -6496,6 +6502,7 @@ var DOMAINS = {
     "tiktok": 0,
     "tiktokv": 0,
     "tiktokcdn-us": 0,
+    "tiktokcdn": 0,
     "tweetdeck": 0,
     "twimg": 0,
     "twitpic": 0,
@@ -7307,6 +7314,9 @@ var DOMAINS = {
     "myparagliding": 0,
     "mypopescu": 0,
     "myspacecdn": 0,
+    "nikke-kr": 0,
+    "nikke-jp": 0,
+    "nikke-en": 0,
     "nodeloc": 0,
     "newthuhole": 0,
     "nakido": 0,
@@ -9036,6 +9046,9 @@ var DOMAINS = {
     "myjs": 0,
     "memes": 0,
     "moptt": 0,
+    "hotcool": {
+      "nikke": 0
+    },
     "newtalk": 0,
     "okk": 0,
     "peoplenews": 0,
@@ -9912,6 +9925,8 @@ var DOMAINS = {
     "fb": 0
   },
   "google": {
+    "ai": 0,
+    "notebooklm": 0,
     "play": 0,
     "about": 0,
     "blog": 0,
