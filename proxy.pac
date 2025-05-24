@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-05-17T12:21:11
+// Time: 2025-05-24T12:21:03
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -846,7 +846,8 @@ var CHINA = [
   [0x2DFDA000, 0xFFFFE000], // 45.253.160.0/19
   [0x2DFDC000, 0xFFFFE000], // 45.253.192.0/19
   [0x2DFDE000, 0xFFFFF000], // 45.253.224.0/20
-  [0x2DFDF000, 0xFFFFF800], // 45.253.240.0/21
+  [0x2DFDF000, 0xFFFFFC00], // 45.253.240.0/22
+  [0x2DFDF600, 0xFFFFFE00], // 45.253.246.0/23
   [0x2DFE0000, 0xFFFFE000], // 45.254.0.0/19
   [0x2DFE2800, 0xFFFFFC00], // 45.254.40.0/22
   [0x2DFE3000, 0xFFFFF000], // 45.254.48.0/20
@@ -2158,7 +2159,6 @@ var CHINA = [
   [0x678B0000, 0xFFFFFC00], // 103.139.0.0/22
   [0x678B1600, 0xFFFFFE00], // 103.139.22.0/23
   [0x678B5C00, 0xFFFFFE00], // 103.139.92.0/23
-  [0x678B7100, 0xFFFFFF00], // 103.139.113.0/24
   [0x678B8600, 0xFFFFFE00], // 103.139.134.0/23
   [0x678B8800, 0xFFFFFE00], // 103.139.136.0/23
   [0x678BAC00, 0xFFFFFE00], // 103.139.172.0/23
@@ -2192,7 +2192,6 @@ var CHINA = [
   [0x678EBA00, 0xFFFFFE00], // 103.142.186.0/23
   [0x678EBE00, 0xFFFFFE00], // 103.142.190.0/23
   [0x678EDC00, 0xFFFFFE00], // 103.142.220.0/23
-  [0x678EE600, 0xFFFFFF00], // 103.142.230.0/24
   [0x678EEA00, 0xFFFFFE00], // 103.142.234.0/23
   [0x678EEE00, 0xFFFFFE00], // 103.142.238.0/23
   [0x678EF800, 0xFFFFFE00], // 103.142.248.0/23
@@ -5611,6 +5610,11 @@ var CHINA = [
 var DOMAINS = {
   "net": {
     "blogjav": 0,
+    "akamaized": {
+      "abematv": 0,
+      "linear-abematv": 0,
+      "vod-abematv": 0
+    },
     "discordapp": 0,
     "dm530": 0,
     "fakku": 0,
@@ -5682,11 +5686,6 @@ var DOMAINS = {
         "a248": 0
       }
     },
-    "akamaized": {
-      "abematv": 0,
-      "linear-abematv": 0,
-      "vod-abematv": 0
-    },
     "al-qimmah": 0,
     "alforattv": 0,
     "alwaysdata": 0,
@@ -5742,6 +5741,7 @@ var DOMAINS = {
     "falundafa-pa": 0,
     "falunworld": 0,
     "fastly": {
+      "freetls": 0,
       "map": {
         "nytimes": 0
       }
@@ -5823,6 +5823,7 @@ var DOMAINS = {
     "keontech": 0,
     "kompozer": 0,
     "kqes": 0,
+    "ldplayer": 0,
     "laqingdan": 0,
     "leafyvpn": 0,
     "letscorp": 0,
@@ -5836,6 +5837,9 @@ var DOMAINS = {
     "mobatek": 0,
     "mullvad": 0,
     "muzi": 0,
+    "naixi": {
+      "bbs": 0
+    },
     "naitik": 0,
     "nekoslovakia": 0,
     "neowin": 0,
@@ -5972,6 +5976,7 @@ var DOMAINS = {
     "airitilibrary": 0,
     "akiba-web": 0,
     "altrec": 0,
+    "amazonvideo": 0,
     "anthropic": 0,
     "apartmentratings": 0,
     "apartments": 0,
@@ -6049,6 +6054,8 @@ var DOMAINS = {
     "lifemiles": 0,
     "longtoes": 0,
     "lovetvshow": 0,
+    "lpsg": 0,
+    "lrfz": 0,
     "macgamestore": 0,
     "madonna-av": 0,
     "mandiant": 0,
@@ -6100,6 +6107,8 @@ var DOMAINS = {
     "openai": 0,
     "pandora": 0,
     "parkansky": 0,
+    "primevideo": 0,
+    "proyectoclubes": 0,
     "pure18": 0,
     "r18": 0,
     "rateyourmusic": 0,
@@ -6228,6 +6237,7 @@ var DOMAINS = {
     },
     "redditspace": 0,
     "reddit": 0,
+    "reddithelp": 0,
     "redditmedia": 0,
     "redditstatic": 0,
     "rixcloud": 0,
@@ -6503,6 +6513,7 @@ var DOMAINS = {
     "tiktokv": 0,
     "tiktokcdn-us": 0,
     "tiktokcdn": 0,
+    "tiktokcdn-eu": 0,
     "tweetdeck": 0,
     "twimg": 0,
     "twitpic": 0,
@@ -7234,8 +7245,6 @@ var DOMAINS = {
       "secure": 0
     },
     "lookpic": 0,
-    "lpsg": 0,
-    "lrfz": 0,
     "lushstories": 0,
     "lvv2": 0,
     "lzjscript": 0,
@@ -7317,7 +7326,9 @@ var DOMAINS = {
     "nikke-kr": 0,
     "nikke-jp": 0,
     "nikke-en": 0,
-    "nodeloc": 0,
+    "nodeloc": {
+      "www": 0
+    },
     "newthuhole": 0,
     "nakido": 0,
     "namsisi": 0,
@@ -7492,7 +7503,6 @@ var DOMAINS = {
     "privatevpn": 0,
     "procopytips": 0,
     "proxpn": 0,
-    "proyectoclubes": 0,
     "pshvpn": 0,
     "psiphon3": 0,
     "pttgame": 0,
@@ -8496,6 +8506,7 @@ var DOMAINS = {
     "rsf-chinese": 0,
     "rtalabel": 0,
     "rutracker": 0,
+    "sagernet": 0,
     "synapse": 0,
     "sehuatang": 0,
     "savetibet": 0,
@@ -8686,6 +8697,57 @@ var DOMAINS = {
     "gov": 0,
     "li": 0,
     "metro": 0
+  },
+  "io": {
+    "bwbx": {
+      "assets": 0
+    },
+    "flexpool": 0,
+    "ipfs": 0,
+    "nofile": 0,
+    "six-degrees": 0,
+    "dragonex": 0,
+    "etherscan": 0,
+    "gate": 0,
+    "opensea": 0,
+    "simpleswap": 0,
+    "gcr": 0,
+    "getmdl": 0,
+    "material": 0,
+    "shattered": 0,
+    "apiary": 0,
+    "codeshare": 0,
+    "docker": 0,
+    "ddex": 0,
+    "doub": 0,
+    "firetweet": 0,
+    "fountmedia": 0,
+    "gitbook": 0,
+    "geph": 0,
+    "git": 0,
+    "github": 0,
+    "hackmd": 0,
+    "mathable": 0,
+    "mega": 0,
+    "mod": 0,
+    "pen": 0,
+    "statically": {
+      "cdn": 0
+    },
+    "scramble": 0,
+    "soup": {
+      "@": 0,
+      "static": 1
+    },
+    "spatial": 0,
+    "storj": 0,
+    "tardigrade": 0,
+    "typeset": 0,
+    "tianti": 0,
+    "twaud": 0,
+    "typora": 0,
+    "z-lib": 0,
+    "zeronet": 0
   },
   "tv": {
     "azubu": 0,
@@ -9043,6 +9105,7 @@ var DOMAINS = {
     },
     "im88": 0,
     "inote": 0,
+    "ldplayer": 0,
     "myjs": 0,
     "memes": 0,
     "moptt": 0,
@@ -9388,6 +9451,18 @@ var DOMAINS = {
     "zspeeder": 0,
     "zuobiao": 0
   },
+  "org/*-*/firefox/addon/ublock-origin/*": {
+    "mozilla": {
+      "addons": 0
+    }
+  },
+  "xpi": {
+    "org/firefox/downloads/file/*/ublock_origin-*": {
+      "mozilla": {
+        "addons": 0
+      }
+    }
+  },
   "gov": {
     "msha": 0,
     "nic": 0,
@@ -9475,57 +9550,6 @@ var DOMAINS = {
     "zhizhu": 0,
     "dpool": 0,
     "nightswatch": 0
-  },
-  "io": {
-    "flexpool": 0,
-    "ipfs": 0,
-    "nofile": 0,
-    "six-degrees": 0,
-    "dragonex": 0,
-    "etherscan": 0,
-    "gate": 0,
-    "opensea": 0,
-    "simpleswap": 0,
-    "gcr": 0,
-    "getmdl": 0,
-    "material": 0,
-    "shattered": 0,
-    "apiary": 0,
-    "bwbx": {
-      "assets": 0
-    },
-    "codeshare": 0,
-    "docker": 0,
-    "ddex": 0,
-    "doub": 0,
-    "firetweet": 0,
-    "fountmedia": 0,
-    "gitbook": 0,
-    "geph": 0,
-    "git": 0,
-    "github": 0,
-    "hackmd": 0,
-    "mathable": 0,
-    "mega": 0,
-    "mod": 0,
-    "pen": 0,
-    "statically": {
-      "cdn": 0
-    },
-    "scramble": 0,
-    "soup": {
-      "@": 0,
-      "static": 1
-    },
-    "spatial": 0,
-    "storj": 0,
-    "tardigrade": 0,
-    "typeset": 0,
-    "tianti": 0,
-    "twaud": 0,
-    "typora": 0,
-    "z-lib": 0,
-    "zeronet": 0
   },
   "icu": {
     "xn--11xs86f": 0,
@@ -10240,18 +10264,6 @@ var DOMAINS = {
     "localdomain": 0,
     "missav": 0,
     "rmbl": 0
-  },
-  "org/*-*/firefox/addon/ublock-origin/*": {
-    "mozilla": {
-      "addons": 0
-    }
-  },
-  "xpi": {
-    "org/firefox/downloads/file/*/ublock_origin-*": {
-      "mozilla": {
-        "addons": 0
-      }
-    }
   },
   "run": {
     "mangmang": 0
@@ -11660,7 +11672,6 @@ var BLACKPAT = [
   "*.farwestchina.com*",
   "*en.favotter.net*",
   "*.global.ssl.fastly.net*",
-  "*.freetls.fastly.net*",
   "*nytimes.map.fastly.net*",
   "*favstar.fm*",
   "*faydao.com/weblog*",
