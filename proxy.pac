@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-05-24T12:21:03
+// Time: 2025-05-31T12:21:48
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -1839,7 +1839,6 @@ var CHINA = [
   [0x675FE000, 0xFFFFFC00], // 103.95.224.0/22
   [0x675FEC00, 0xFFFFFC00], // 103.95.236.0/22
   [0x675FF000, 0xFFFFF000], // 103.95.240.0/20
-  [0x67600000, 0xFFFFFC00], // 103.96.0.0/22
   [0x67600800, 0xFFFFFC00], // 103.96.8.0/22
   [0x67607C00, 0xFFFFFC00], // 103.96.124.0/22
   [0x67608800, 0xFFFFFC00], // 103.96.136.0/22
@@ -3131,7 +3130,6 @@ var CHINA = [
   [0x71D08000, 0xFFFF8000], // 113.208.128.0/17
   [0x71D10000, 0xFFFF0000], // 113.209.0.0/16
   [0x71D40000, 0xFFFFC000], // 113.212.0.0/18
-  [0x71D45800, 0xFFFFFC00], // 113.212.88.0/22
   [0x71D46400, 0xFFFFFC00], // 113.212.100.0/22
   [0x71D4B800, 0xFFFFF800], // 113.212.184.0/21
   [0x71D50000, 0xFFFF8000], // 113.213.0.0/17
@@ -6171,11 +6169,6 @@ var DOMAINS = {
     "xn--9pr62r24a": 0,
     "xn--ngstr-lra8j": 0,
     "abebooks": 0,
-    "amazonaws": {
-      "s3-ap-southeast-1": 0,
-      "s3-ap-southeast-2": 0,
-      "s3-ap-*": 0
-    },
     "9cache": 0,
     "9gag": 0,
     "apkmirror": 0,
@@ -6341,6 +6334,23 @@ var DOMAINS = {
     },
     "amazon": {
       "payments-jp": 0
+    },
+    "amazonaws": {
+      "s3-ap-*": 0,
+      "eu-central-1": {
+        "s3": 0
+      },
+      "s3-eu-central-1": 0,
+      "us-east-1": {
+        "s3": 0
+      },
+      "s3-ap-northeast-2": 0,
+      "ap-northeast-2": {
+        "s3": 0
+      },
+      "s3-ap-northeast-1": 0,
+      "s3-ap-southeast-1": 0,
+      "s3-ap-southeast-2": 0
     },
     "aol": {
       "aolchannels": 0,
@@ -6636,6 +6646,7 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "blackmagicdesign": 0,
     "bearteach": 0,
     "blocktempo": 0,
     "babylonbee": 0,
@@ -9949,30 +9960,7 @@ var DOMAINS = {
     "fb": 0
   },
   "google": {
-    "ai": 0,
-    "notebooklm": 0,
-    "play": 0,
-    "about": 0,
-    "blog": 0,
-    "chromeenterprise": 0,
-    "com": 0,
-    "crisisresponse": 0,
-    "design": 0,
-    "dns": 0,
-    "domains": 0,
-    "environment": 0,
-    "grow": 0,
-    "lers": 0,
-    "nic": 0,
-    "opensource": 0,
-    "passwords": 0,
-    "pride": 0,
-    "registry": 0,
-    "research": 0,
-    "safety": 0,
-    "stories": 0,
-    "sustainability": 0,
-    "tv": 0
+    "*": 0
   },
   "new": {
     "doc": 0,
