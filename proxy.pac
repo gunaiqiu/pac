@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-05-31T12:21:48
+// Time: 2025-06-07T12:21:40
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -624,7 +624,6 @@ var CHINA = [
   [0x2BFFF400, 0xFFFFFC00], // 43.255.244.0/22
   [0x2D032000, 0xFFFFF000], // 45.3.32.0/20
   [0x2D033000, 0xFFFFF800], // 45.3.48.0/21
-  [0x2D033800, 0xFFFFFC00], // 45.3.56.0/22
   [0x2D033C00, 0xFFFFFE00], // 45.3.60.0/23
   [0x2D033E00, 0xFFFFFF00], // 45.3.62.0/24
   [0x2D28C000, 0xFFFFC000], // 45.40.192.0/18
@@ -2222,7 +2221,6 @@ var CHINA = [
   [0x67925A00, 0xFFFFFE00], // 103.146.90.0/23
   [0x67927C00, 0xFFFFFC00], // 103.146.124.0/22
   [0x67928A00, 0xFFFFFE00], // 103.146.138.0/23
-  [0x6792E600, 0xFFFFFE00], // 103.146.230.0/23
   [0x6792EC00, 0xFFFFFE00], // 103.146.236.0/23
   [0x6792FC00, 0xFFFFFE00], // 103.146.252.0/23
   [0x67930C00, 0xFFFFFE00], // 103.147.12.0/23
@@ -2976,6 +2974,7 @@ var CHINA = [
   [0x67FFD000, 0xFFFFFE00], // 103.255.208.0/23
   [0x67FFD400, 0xFFFFFC00], // 103.255.212.0/22
   [0x67FFE400, 0xFFFFFC00], // 103.255.228.0/22
+  [0x68A71300, 0xFFFFFF00], // 104.167.19.0/24
   [0x68A71900, 0xFFFFFF00], // 104.167.25.0/24
   [0x68A71A00, 0xFFFFFE00], // 104.167.26.0/23
   [0x68CF2000, 0xFFFFE000], // 104.207.32.0/19
@@ -5677,6 +5676,9 @@ var DOMAINS = {
     "12vpn": 0,
     "8z1": 0,
     "9bis": 0,
+    "arstechnica": {
+      "cdn": 0
+    },
     "ai-kan": 0,
     "aiph": 0,
     "akamai": {
@@ -5992,6 +5994,7 @@ var DOMAINS = {
     "carfax": 0,
     "casinobellini": 0,
     "ciciai": 0,
+    "cici": 0,
     "clearsurance": 0,
     "costco": 0,
     "coze": 0,
@@ -6545,6 +6548,7 @@ var DOMAINS = {
       "evchk": 0
     },
     "yahoo": 0,
+    "91dasai": 0,
     "611study": 0,
     "000webhost": 0,
     "10musume": 0,
@@ -6732,6 +6736,7 @@ var DOMAINS = {
     "buzzorange": 0,
     "buzzsprout": 0,
     "bvpn": 0,
+    "ctinews": 0,
     "cachefly": 0,
     "campaign-archive": 0,
     "cfsh99": {
@@ -10051,6 +10056,7 @@ var DOMAINS = {
   "to": {
     "1337x": 0,
     "breached": 0,
+    "coffeemanga": 0,
     "mychat": {
       "bbs": 0
     },
