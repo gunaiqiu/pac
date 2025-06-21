@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-06-14T12:21:49
+// Time: 2025-06-21T12:21:50
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -5641,7 +5641,6 @@ var DOMAINS = {
     "livecoin": 0,
     "yobit": 0,
     "china-mmm": 0,
-    "cloudfront": 0,
     "facebook": {
       "connect": 0
     },
@@ -5735,6 +5734,7 @@ var DOMAINS = {
     "findyoutube": 0,
     "flowhongkong": 0,
     "frommel": 0,
+    "gitlab": 0,
     "gaoming": 0,
     "geek-art": 0,
     "geti2p": 0,
@@ -5746,6 +5746,7 @@ var DOMAINS = {
       "suche": 0
     },
     "greenvpn": 0,
+    "hinet": 0,
     "hackthatphone": 0,
     "hdtvb": 0,
     "he": {
@@ -6505,6 +6506,7 @@ var DOMAINS = {
     "91porny": 0,
     "99btgc01": 0,
     "9bis": 0,
+    "amuletmc": 0,
     "abplive": 0,
     "aljazeera": 0,
     "akinator": 0,
@@ -6820,6 +6822,7 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "forbes": 0,
     "financialexpress": 0,
     "fast": 0,
     "ft": 0,
@@ -8445,6 +8448,7 @@ var DOMAINS = {
     "helpster": 0,
     "i2p2": 0,
     "mobileways": 0,
+    "oojj": 0,
     "otto": 0,
     "privacybox": 0,
     "prosiben": 0,
@@ -8478,6 +8482,9 @@ var DOMAINS = {
     "getmdl": 0,
     "material": 0,
     "shattered": 0,
+    "4everland": {
+      "ipfs": 0
+    },
     "apiary": 0,
     "codeshare": 0,
     "docker": 0,
@@ -8966,6 +8973,7 @@ var DOMAINS = {
     "landofhope": 0,
     "nbyy": 0,
     "ntd": 0,
+    "storry": 0,
     "subhd": 0,
     "tou": 0,
     "tibetonline": 0,
@@ -9766,6 +9774,12 @@ var DOMAINS = {
     },
     "rfi": 0
   },
+  "link": {
+    "dweb": 0,
+    "nftstorage": 0,
+    "page": 0,
+    "vnet": 0
+  },
   "cash": {
     "d": 0
   },
@@ -9908,10 +9922,6 @@ var DOMAINS = {
   "pub": {
     "pandafan": 0,
     "xt": 0
-  },
-  "link": {
-    "page": 0,
-    "vnet": 0
   },
   "click": {
     "popxi": 0
@@ -13002,6 +13012,7 @@ var BLACKPAT = [
   "*.vpser.net*",
   "*vraiesagesse.net*",
   "*.vrmtr.com*",
+  "https://w3s.link/ipfs*",
   "*lists.w3.org/archives/public*",
   "*.wahas.com*",
   "*waikeung.org/php_wind*",
