@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-06-21T12:21:50
+// Time: 2025-06-28T12:22:33
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -984,7 +984,6 @@ var CHINA = [
   [0x4A7A1800, 0xFFFFFC00], // 74.122.24.0/22
   [0x51440000, 0xFFFC0000], // 81.68.0.0/14
   [0x529C0000, 0xFFFE0000], // 82.156.0.0/15
-  [0x55D12800, 0xFFFFFC00], // 85.209.40.0/22
   [0x5BE91100, 0xFFFFFF00], // 91.233.17.0/24
   [0x5BEA2400, 0xFFFFFF00], // 91.234.36.0/24
   [0x5EBF0000, 0xFFFF8000], // 94.191.0.0/17
@@ -1741,7 +1740,7 @@ var CHINA = [
   [0x67561C00, 0xFFFFFC00], // 103.86.28.0/22
   [0x67562000, 0xFFFFFC00], // 103.86.32.0/22
   [0x67563C00, 0xFFFFFC00], // 103.86.60.0/22
-  [0x67565000, 0xFFFFF800], // 103.86.80.0/21
+  [0x67565400, 0xFFFFFC00], // 103.86.84.0/22
   [0x6756CC00, 0xFFFFFC00], // 103.86.204.0/22
   [0x6756D000, 0xFFFFF000], // 103.86.208.0/20
   [0x6756E000, 0xFFFFE000], // 103.86.224.0/19
@@ -3906,6 +3905,8 @@ var CHINA = [
   [0xA5630400, 0xFFFFFF00], // 165.99.4.0/24
   [0xA5632A00, 0xFFFFFE00], // 165.99.42.0/23
   [0xA5650400, 0xFFFFFE00], // 165.101.4.0/23
+  [0xA5654200, 0xFFFFFE00], // 165.101.66.0/23
+  [0xA5654600, 0xFFFFFE00], // 165.101.70.0/23
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
   [0xA78B0000, 0xFFFF0000], // 167.139.0.0/16
   [0xA7BD0000, 0xFFFF0000], // 167.189.0.0/16
@@ -5703,6 +5704,7 @@ var DOMAINS = {
     "catch22": 0,
     "ccthere": 0,
     "chinaaid": 0,
+    "chinadialogue": 0,
     "chinadigitaltimes": 0,
     "classicalguitarblog": 0,
     "creaders": 0,
@@ -5812,6 +5814,9 @@ var DOMAINS = {
     "openid": 0,
     "openvpn": 0,
     "overplay": 0,
+    "picgo": {
+      "img": 0
+    },
     "photonmedia": 0,
     "pao-pao": 0,
     "pawoo": 0,
@@ -6686,10 +6691,12 @@ var DOMAINS = {
     "chatgpt": 0,
     "chaturbate": 0,
     "checkgfw": 0,
+    "chengmingmag": 0,
     "chenguangcheng": 0,
     "chenpokong": 0,
     "chenpokongvip": 0,
     "cherrysave": 0,
+    "china-week": 0,
     "china101": 0,
     "china21": 0,
     "chinafile": 0,
@@ -7394,6 +7401,7 @@ var DOMAINS = {
     "qoos": 0,
     "efksoft": 0,
     "qstatus": 0,
+    "radmin-vpn": 0,
     "rule34video": 0,
     "radiovncr": 0,
     "raggedbanner": 0,
@@ -8049,9 +8057,11 @@ var DOMAINS = {
     "cfr": 0,
     "change": 0,
     "chanworld": 0,
+    "chhongbi": 0,
     "china18": 0,
     "china21": 0,
     "chinaaffairs": 0,
+    "chinaaid": 0,
     "chinachange": 0,
     "chinademocrats": 0,
     "chinaelections": 0,
@@ -9419,6 +9429,8 @@ var DOMAINS = {
     "careerengine": {
       "posts": 0
     },
+    "china5000": 0,
+    "chinaaid": 0,
     "devio": 0,
     "dit-inc": 0,
     "donmai": {
@@ -9599,9 +9611,11 @@ var DOMAINS = {
   "watch": {
     "fb": 0
   },
-  "google": {
-    "*": 0
+  "gle": {
+    "@": 0,
+    "goo": 0
   },
+  "google": 0,
   "new": {
     "doc": 0,
     "form": 0,
@@ -9638,15 +9652,13 @@ var DOMAINS = {
     "goo": 0,
     "z-lib": 0
   },
-  "gle": {
-    "goo": 0
-  },
   "soy": {
     "iam": 0
   },
   "goog": {
     "pki": {
       "@": 0,
+      "i": 1,
       "ocsp": 1
     },
     "translate": 0,
@@ -9849,6 +9861,13 @@ var DOMAINS = {
   },
   "men": {
     "hsex": 0
+  },
+  "ir": {
+    "president": 0,
+    "gov": 0,
+    "irna": 0,
+    "arvanstorage": 0,
+    "irangov": 0
   },
   "works": {
     "improd": 0
@@ -10759,25 +10778,6 @@ var BLACKPAT = [
   "*.changp.com*",
   "*.chaturbate.com*",
   "*.chuang-yen.org*",
-  "*chengmingmag.com*",
-  "*.chenguangcheng.com*",
-  "*.chenpokong.com*",
-  "*.chhongbi.org*",
-  "*chicagoncmtv.com*",
-  "http://chicagoncmtv.com*",
-  "*.china-week.com*",
-  "*china101.com*",
-  "*china21.org*",
-  "*.china5000.us*",
-  "*chinaaffairs.org*",
-  "*chinaaid.us*",
-  "*chinaaid.org*",
-  "*chinaaid.net*",
-  "*.chinachange.org*",
-  "*chinachannel.hk*",
-  "*.chinadialogue.net*",
-  "*.chinadigitaltimes.net*",
-  "*.chinaelections.org*",
   "*.chinagate.com*",
   "*chinagfw.org*",
   "*.chinagonet.com*",
@@ -11218,9 +11218,6 @@ var BLACKPAT = [
   "*.freechal.com*",
   "*.freedomhouse.org*",
   "*.freedomsherald.org*",
-  "*.freefq.com*",
-  "*.freefuckvids.com*",
-  "*.freegao.com*",
   "*freeilhamtohti.org*",
   "*.freelotto.com*",
   "*freeman2.com*",
