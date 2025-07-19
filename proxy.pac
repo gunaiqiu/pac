@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-07-12T12:22:52
+// Time: 2025-07-19T12:23:58
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -623,7 +623,6 @@ var CHINA = [
   [0x2BFFF400, 0xFFFFFC00], // 43.255.244.0/22
   [0x2D032000, 0xFFFFF000], // 45.3.32.0/20
   [0x2D033000, 0xFFFFF800], // 45.3.48.0/21
-  [0x2D033C00, 0xFFFFFE00], // 45.3.60.0/23
   [0x2D033E00, 0xFFFFFF00], // 45.3.62.0/24
   [0x2D28C000, 0xFFFFC000], // 45.40.192.0/18
   [0x2D411000, 0xFFFFF000], // 45.65.16.0/20
@@ -2972,7 +2971,6 @@ var CHINA = [
   [0x67FFE400, 0xFFFFFC00], // 103.255.228.0/22
   [0x68A71300, 0xFFFFFF00], // 104.167.19.0/24
   [0x68A71900, 0xFFFFFF00], // 104.167.25.0/24
-  [0x68A71A00, 0xFFFFFE00], // 104.167.26.0/23
   [0x68CF2000, 0xFFFFE000], // 104.207.32.0/19
   [0x6A000000, 0xFFFFFF00], // 106.0.0.0/24
   [0x6A000200, 0xFFFFFE00], // 106.0.2.0/23
@@ -3908,6 +3906,7 @@ var CHINA = [
   [0xA5657A00, 0xFFFFFE00], // 165.101.122.0/23
   [0xA5659000, 0xFFFFFE00], // 165.101.144.0/23
   [0xA565AA00, 0xFFFFFE00], // 165.101.170.0/23
+  [0xA565D000, 0xFFFFFE00], // 165.101.208.0/23
   [0xA66F0000, 0xFFFF0000], // 166.111.0.0/16
   [0xA78B0000, 0xFFFF0000], // 167.139.0.0/16
   [0xA7BD0000, 0xFFFF0000], // 167.189.0.0/16
@@ -8413,6 +8412,9 @@ var DOMAINS = {
     "wnacg": 0,
     "wokar": 0,
     "workerempowerment": 0,
+    "xicons": {
+      "www": 0
+    },
     "x-wall": 0,
     "xiaoma": 0,
     "xinjiangpolicefiles": 0,
