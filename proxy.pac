@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-07-26T12:23:54
+// Time: 2025-08-02T12:24:37
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2217,6 +2217,7 @@ var CHINA = [
   [0x6792FC00, 0xFFFFFE00], // 103.146.252.0/23
   [0x67930C00, 0xFFFFFE00], // 103.147.12.0/23
   [0x67937C00, 0xFFFFFE00], // 103.147.124.0/23
+  [0x6793C600, 0xFFFFFE00], // 103.147.198.0/23
   [0x6793CE00, 0xFFFFFE00], // 103.147.206.0/23
   [0x6794AE00, 0xFFFFFE00], // 103.148.174.0/23
   [0x67950600, 0xFFFFFE00], // 103.149.6.0/23
@@ -7109,6 +7110,7 @@ var DOMAINS = {
     "ktzhk": 0,
     "kurtmunger": 0,
     "kzaobao": 0,
+    "ludepress": 0,
     "lingualeo": 0,
     "lagranepoca": 0,
     "larsgeorge": 0,
@@ -7758,6 +7760,7 @@ var DOMAINS = {
     "vrchat": 0,
     "vrporn": 0,
     "vtunnel": 0,
+    "walletconnect": 0,
     "waffle1999": 0,
     "wallmama": 0,
     "wallpapercasa": 0,
