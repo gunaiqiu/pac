@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-08-02T12:24:37
+// Time: 2025-08-09T12:24:10
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -658,6 +658,7 @@ var CHINA = [
   [0x2D72C800, 0xFFFFFC00], // 45.114.200.0/22
   [0x2D72E400, 0xFFFFFC00], // 45.114.228.0/22
   [0x2D72FC00, 0xFFFFFC00], // 45.114.252.0/22
+  [0x2D731200, 0xFFFFFE00], // 45.115.18.0/23
   [0x2D732C00, 0xFFFFFC00], // 45.115.44.0/22
   [0x2D736400, 0xFFFFFC00], // 45.115.100.0/22
   [0x2D737800, 0xFFFFFC00], // 45.115.120.0/22
@@ -4085,7 +4086,6 @@ var CHINA = [
   [0xCA080C00, 0xFFFFFF00], // 202.8.12.0/24
   [0xCA081800, 0xFFFFFF00], // 202.8.24.0/24
   [0xCA084D00, 0xFFFFFF00], // 202.8.77.0/24
-  [0xCA087800, 0xFFFFFC00], // 202.8.120.0/22
   [0xCA088000, 0xFFFFE000], // 202.8.128.0/19
   [0xCA08C000, 0xFFFFF000], // 202.8.192.0/20
   [0xCA092000, 0xFFFFFF00], // 202.9.32.0/24
@@ -5801,6 +5801,9 @@ var DOMAINS = {
     "mobatek": 0,
     "mullvad": 0,
     "muzi": 0,
+    "neoforged": {
+      "maven": 0
+    },
     "naixi": {
       "bbs": 0
     },
@@ -6295,6 +6298,7 @@ var DOMAINS = {
     "bbcchinese": 0,
     "bloomberg": 0,
     "bloombergview": 0,
+    "cloudflare-dns": 0,
     "dynu": 0,
     "accountkit": 0,
     "cdninstagram": 0,
@@ -6577,6 +6581,7 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "bitget": 0,
     "blackmagicdesign": 0,
     "bearteach": 0,
     "blocktempo": 0,
@@ -7220,9 +7225,6 @@ var DOMAINS = {
     "nikke-kr": 0,
     "nikke-jp": 0,
     "nikke-en": 0,
-    "nodeloc": {
-      "www": 0
-    },
     "newthuhole": 0,
     "nakido": 0,
     "nanyang": 0,
@@ -7696,6 +7698,7 @@ var DOMAINS = {
     "twilio": {
       "contests": 0
     },
+    "upbit": 0,
     "u9un": 0,
     "udn": 0,
     "ultravpn": 0,
@@ -9418,7 +9421,8 @@ var DOMAINS = {
       "lab": 0
     },
     "sstm": 0,
-    "sstmlt": 0
+    "sstmlt": 0,
+    "wxw": 0
   },
   "rocks": {
     "pincong": 0,
@@ -10006,6 +10010,9 @@ var DOMAINS = {
   },
   "ac": {
     "vpn": 0
+  },
+  "cat": {
+    "wxw": 0
   },
   "tech": {
     "funami": {
