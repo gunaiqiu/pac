@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-08-09T12:24:10
+// Time: 2025-08-16T12:22:52
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -5681,6 +5681,7 @@ var DOMAINS = {
     "azurewebsites": {
       "boxun*": 0
     },
+    "betterhash": 0,
     "btbit": 0,
     "betaclouds": 0,
     "bayvoice": 0,
@@ -6948,6 +6949,7 @@ var DOMAINS = {
     "gospelherald": 0,
     "gumroad": 0,
     "gunsamerica": 0,
+    "herominers": 0,
     "hindustantimes": 0,
     "haiwaikan": 0,
     "haijiao": 0,
@@ -8026,6 +8028,7 @@ var DOMAINS = {
     "asiaharvest": 0,
     "avaaz": 0,
     "avidemux": 0,
+    "binance": 0,
     "baijie": 0,
     "baizhi": 0,
     "bannedbook": 0,
@@ -8264,6 +8267,8 @@ var DOMAINS = {
     "openstreetmap": 0,
     "overdaily": 0,
     "ozvoice": 0,
+    "pewresearch": 0,
+    "privacyguides": 0,
     "puredns": 0,
     "pastie": 0,
     "pbs": 0,
@@ -8515,6 +8520,9 @@ var DOMAINS = {
     "git": 0,
     "github": 0,
     "hackmd": 0,
+    "itch": 0,
+    "infura": 0,
+    "metamask": 0,
     "mega": 0,
     "mod": 0,
     "pen": 0,
@@ -9091,6 +9099,7 @@ var DOMAINS = {
     "iask": 0,
     "identi": 0,
     "kwcg": 0,
+    "luckymobile": 0,
     "metrolife": 0,
     "peace": 0,
     "psiphon": 0,
@@ -9118,6 +9127,7 @@ var DOMAINS = {
     "kuaichedao": 0,
     "pandapow": 0,
     "radioline": 0,
+    "swapspace": 0,
     "tcpspeed": 0,
     "net": {
       "twister": 0
@@ -9515,7 +9525,8 @@ var DOMAINS = {
     }
   },
   "finance": {
-    "solv": 0
+    "solv": 0,
+    "pancakeswap": 0
   },
   "dev": {
     "go5": 0,
