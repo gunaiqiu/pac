@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-08-16T12:22:52
+// Time: 2025-08-23T12:21:31
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -878,6 +878,7 @@ var CHINA = [
   [0x318C0000, 0xFFFE0000], // 49.140.0.0/15
   [0x31980000, 0xFFFC0000], // 49.152.0.0/14
   [0x31D00000, 0xFFFC0000], // 49.208.0.0/14
+  [0x31D53C00, 0xFFFFFC00], // 49.213.60.0/22
   [0x31DC0000, 0xFFFC0000], // 49.220.0.0/14
   [0x31E80000, 0xFFFC0000], // 49.232.0.0/14
   [0x31EF0000, 0xFFFFC000], // 49.239.0.0/18
@@ -2251,7 +2252,6 @@ var CHINA = [
   [0x6796F400, 0xFFFFFE00], // 103.150.244.0/23
   [0x67970400, 0xFFFFFE00], // 103.151.4.0/23
   [0x67972C00, 0xFFFFFE00], // 103.151.44.0/23
-  [0x67978A00, 0xFFFFFE00], // 103.151.138.0/23
   [0x67978E00, 0xFFFFFE00], // 103.151.142.0/23
   [0x67979400, 0xFFFFFC00], // 103.151.148.0/22
   [0x67979E00, 0xFFFFFE00], // 103.151.158.0/23
@@ -2262,7 +2262,6 @@ var CHINA = [
   [0x67981C00, 0xFFFFFC00], // 103.152.28.0/22
   [0x67983800, 0xFFFFFE00], // 103.152.56.0/23
   [0x67984C00, 0xFFFFFE00], // 103.152.76.0/23
-  [0x67986200, 0xFFFFFE00], // 103.152.98.0/23
   [0x67987000, 0xFFFFFE00], // 103.152.112.0/23
   [0x67987800, 0xFFFFFC00], // 103.152.120.0/22
   [0x67989800, 0xFFFFFE00], // 103.152.152.0/23
@@ -6335,7 +6334,6 @@ var DOMAINS = {
       "@": 0,
       "clientservices": 1,
       "fonts": 1,
-      "storage": 1,
       "update": 1,
       "safebrowsing": 1
     },
@@ -6754,6 +6752,9 @@ var DOMAINS = {
     "curvefish": 0,
     "cyberghostvpn": 0,
     "cynscribe": 0,
+    "deno": {
+      "docs": 0
+    },
     "disneyplus": 0,
     "doubiyunbackup": 0,
     "dadazim": 0,
@@ -6833,6 +6834,8 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "fuckccp": 0,
+    "furrybar": 0,
     "forbes": 0,
     "financialexpress": 0,
     "fast": 0,
@@ -7009,6 +7012,7 @@ var DOMAINS = {
     "huhangfei": 0,
     "hung-ya": 0,
     "hyperrate": 0,
+    "itiger": 0,
     "india": 0,
     "imago-images": 0,
     "i818hk": 0,
@@ -7222,6 +7226,7 @@ var DOMAINS = {
     "myparagliding": 0,
     "mypopescu": 0,
     "myspacecdn": 0,
+    "naver": 0,
     "newindianexpress": 0,
     "news18": 0,
     "nikke-kr": 0,
@@ -8799,6 +8804,7 @@ var DOMAINS = {
     "org": {
       "kinmen": 0,
       "ait": 0,
+      "covenantswatch": 0,
       "catholic": 0,
       "ccfd": 0,
       "cmi": 0,
@@ -9349,6 +9355,7 @@ var DOMAINS = {
     "popvote": 0,
     "rthk": 0,
     "sacom": 0,
+    "udomain": 0,
     "unwire": 0
   },
   "space": {
@@ -9397,6 +9404,7 @@ var DOMAINS = {
     "mastodon": 0,
     "abc": 0,
     "2049bbs": 0,
+    "fuckccp": 0,
     "gooday": 0,
     "hexieshe": 0,
     "honven": 0,
@@ -9536,6 +9544,7 @@ var DOMAINS = {
     "tfhub": 0,
     "web": 0,
     "tg": 0,
+    "deno": 0,
     "fuchsia": 0,
     "unlock-music": {
       "demo": 0
