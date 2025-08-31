@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-08-23T12:21:31
+// Time: 2025-08-30T12:20:53
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -627,7 +627,6 @@ var CHINA = [
   [0x2D28C000, 0xFFFFC000], // 45.40.192.0/18
   [0x2D411000, 0xFFFFF000], // 45.65.16.0/20
   [0x2D52EC00, 0xFFFFFC00], // 45.82.236.0/22
-  [0x2D52F000, 0xFFFFFC00], // 45.82.240.0/22
   [0x2D708400, 0xFFFFFC00], // 45.112.132.0/22
   [0x2D70BC00, 0xFFFFFC00], // 45.112.188.0/22
   [0x2D70D000, 0xFFFFF000], // 45.112.208.0/20
@@ -2271,7 +2270,7 @@ var CHINA = [
   [0x6798C000, 0xFFFFFE00], // 103.152.192.0/23
   [0x6798C800, 0xFFFFFE00], // 103.152.200.0/23
   [0x6798D000, 0xFFFFFE00], // 103.152.208.0/23
-  [0x6798E000, 0xFFFFFC00], // 103.152.224.0/22
+  [0x6798E000, 0xFFFFFE00], // 103.152.224.0/23
   [0x6798F600, 0xFFFFFE00], // 103.152.246.0/23
   [0x6798FA00, 0xFFFFFE00], // 103.152.250.0/23
   [0x67990400, 0xFFFFFE00], // 103.153.4.0/23
@@ -4079,6 +4078,7 @@ var CHINA = [
   [0xCA066E00, 0xFFFFFE00], // 202.6.110.0/23
   [0xCA067200, 0xFFFFFF00], // 202.6.114.0/24
   [0xCA06B000, 0xFFFFF000], // 202.6.176.0/20
+  [0xCA06CA00, 0xFFFFFE00], // 202.6.202.0/23
   [0xCA080000, 0xFFFFFF00], // 202.8.0.0/24
   [0xCA080200, 0xFFFFFE00], // 202.8.2.0/23
   [0xCA080400, 0xFFFFFE00], // 202.8.4.0/23
@@ -6834,6 +6834,7 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "feedly": 0,
     "fuckccp": 0,
     "furrybar": 0,
     "forbes": 0,
@@ -8705,6 +8706,7 @@ var DOMAINS = {
     "technews": 0,
     "dailyview": 0,
     "gov": {
+      "moj": 0,
       "archives": 0,
       "cwb": {
         "tacc": 0,
