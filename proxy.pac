@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-08-30T12:20:53
+// Time: 2025-09-06T12:20:19
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -4054,8 +4054,6 @@ var CHINA = [
   [0xC0C57100, 0xFFFFFF00], // 192.197.113.0/24
   [0xC1700000, 0xFFFF0000], // 193.112.0.0/16
   [0xC1770000, 0xFFFFE000], // 193.119.0.0/19
-  [0xC26E8600, 0xFFFFFE00], // 194.110.134.0/23
-  [0xC26E8A00, 0xFFFFFE00], // 194.110.138.0/23
   [0xC27FE500, 0xFFFFFF00], // 194.127.229.0/24
   [0xC6AF6400, 0xFFFFFC00], // 198.175.100.0/22
   [0xC7D43900, 0xFFFFFF00], // 199.212.57.0/24
@@ -4384,6 +4382,8 @@ var CHINA = [
   [0xCA868000, 0xFFFFF000], // 202.134.128.0/20
   [0xCA86D000, 0xFFFFF000], // 202.134.208.0/20
   [0xCA883000, 0xFFFFF000], // 202.136.48.0/20
+  [0xCA884800, 0xFFFFFE00], // 202.136.72.0/23
+  [0xCA885000, 0xFFFFFE00], // 202.136.80.0/23
   [0xCA88D000, 0xFFFFF000], // 202.136.208.0/20
   [0xCA88E000, 0xFFFFF000], // 202.136.224.0/20
   [0xCA88F800, 0xFFFFFC00], // 202.136.248.0/22
@@ -6580,6 +6580,7 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "bt4gprx": 0,
     "bitget": 0,
     "blackmagicdesign": 0,
     "bearteach": 0,
@@ -8034,6 +8035,7 @@ var DOMAINS = {
     "asiaharvest": 0,
     "avaaz": 0,
     "avidemux": 0,
+    "bt4g": 0,
     "binance": 0,
     "baijie": 0,
     "baizhi": 0,
@@ -8186,6 +8188,10 @@ var DOMAINS = {
     "huayuworld": 0,
     "humanrightspressawards": 0,
     "hxwk": 0,
+    "ipify": {
+      "@": 0,
+      "*": 1
+    },
     "icij": 0,
     "icl-fi": 0,
     "furbo": 0,
@@ -8914,7 +8920,8 @@ var DOMAINS = {
     "nga": 0
   },
   "gg": {
-    "discord": 0
+    "discord": 0,
+    "tanks": 0
   },
   "jp": {
     "co": {
