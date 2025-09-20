@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-09-13T12:20:11
+// Time: 2025-09-20T12:21:13
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -348,7 +348,7 @@ var CHINA = [
   [0x2BE02C00, 0xFFFFFC00], // 43.224.44.0/22
   [0x2BE03400, 0xFFFFFC00], // 43.224.52.0/22
   [0x2BE03800, 0xFFFFFC00], // 43.224.56.0/22
-  [0x2BE04000, 0xFFFFF800], // 43.224.64.0/21
+  [0x2BE04400, 0xFFFFFC00], // 43.224.68.0/22
   [0x2BE04800, 0xFFFFFC00], // 43.224.72.0/22
   [0x2BE05000, 0xFFFFFC00], // 43.224.80.0/22
   [0x2BE06400, 0xFFFFFC00], // 43.224.100.0/22
@@ -621,9 +621,6 @@ var CHINA = [
   [0x2BFFE000, 0xFFFFF800], // 43.255.224.0/21
   [0x2BFFE800, 0xFFFFFC00], // 43.255.232.0/22
   [0x2BFFF400, 0xFFFFFC00], // 43.255.244.0/22
-  [0x2D032000, 0xFFFFF000], // 45.3.32.0/20
-  [0x2D033000, 0xFFFFF800], // 45.3.48.0/21
-  [0x2D033E00, 0xFFFFFF00], // 45.3.62.0/24
   [0x2D28C000, 0xFFFFC000], // 45.40.192.0/18
   [0x2D411000, 0xFFFFF000], // 45.65.16.0/20
   [0x2D52EC00, 0xFFFFFC00], // 45.82.236.0/22
@@ -969,7 +966,6 @@ var CHINA = [
   [0x3DEC0000, 0xFFFE0000], // 61.236.0.0/15
   [0x3DF00000, 0xFFFC0000], // 61.240.0.0/14
   [0x3EEA0000, 0xFFFF0000], // 62.234.0.0/16
-  [0x416F0000, 0xFFFFE000], // 65.111.0.0/19
   [0x444F0000, 0xFFFFC000], // 68.79.0.0/18
   [0x45E6C000, 0xFFFFC000], // 69.230.192.0/18
   [0x45E78000, 0xFFFFC000], // 69.231.128.0/18
@@ -1351,7 +1347,6 @@ var CHINA = [
   [0x672AB400, 0xFFFFFC00], // 103.42.180.0/22
   [0x672AE800, 0xFFFFFC00], // 103.42.232.0/22
   [0x672B1000, 0xFFFFFC00], // 103.43.16.0/22
-  [0x672B5400, 0xFFFFFC00], // 103.43.84.0/22
   [0x672B6000, 0xFFFFF800], // 103.43.96.0/21
   [0x672B6800, 0xFFFFFC00], // 103.43.104.0/22
   [0x672B7C00, 0xFFFFFC00], // 103.43.124.0/22
@@ -2964,9 +2959,6 @@ var CHINA = [
   [0x67FFD000, 0xFFFFFE00], // 103.255.208.0/23
   [0x67FFD400, 0xFFFFFC00], // 103.255.212.0/22
   [0x67FFE400, 0xFFFFFC00], // 103.255.228.0/22
-  [0x68A71300, 0xFFFFFF00], // 104.167.19.0/24
-  [0x68A71900, 0xFFFFFF00], // 104.167.25.0/24
-  [0x68CF2000, 0xFFFFE000], // 104.207.32.0/19
   [0x6A000000, 0xFFFFFF00], // 106.0.0.0/24
   [0x6A000200, 0xFFFFFE00], // 106.0.2.0/23
   [0x6A000400, 0xFFFFFC00], // 106.0.4.0/22
@@ -5802,6 +5794,7 @@ var DOMAINS = {
     "mobatek": 0,
     "mullvad": 0,
     "muzi": 0,
+    "nirsoft": 0,
     "neoforged": {
       "maven": 0
     },
@@ -5889,6 +5882,7 @@ var DOMAINS = {
     },
     "lecloud": 0,
     "uberproxy": 0,
+    "vpsxb": 0,
     "vewas": 0,
     "vpn": 0,
     "vpnforgame": 0,
@@ -6894,6 +6888,7 @@ var DOMAINS = {
     "fullservicegame": 0,
     "furinkan": 0,
     "fxcm-chinese": 0,
+    "gitlab": 0,
     "g-queen": 0,
     "gab": 0,
     "gabocorp": 0,
@@ -8152,6 +8147,7 @@ var DOMAINS = {
     "frontlinedefenders": 0,
     "fscked": 0,
     "futuremessage": 0,
+    "garudalinux": 0,
     "getsession": 0,
     "gdaily": 0,
     "gfwatch": 0,
