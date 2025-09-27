@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-09-20T12:21:13
+// Time: 2025-09-27T12:20:35
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2251,7 +2251,6 @@ var CHINA = [
   [0x67979E00, 0xFFFFFE00], // 103.151.158.0/23
   [0x6797D800, 0xFFFFFE00], // 103.151.216.0/23
   [0x6797E400, 0xFFFFFE00], // 103.151.228.0/23
-  [0x67980E00, 0xFFFFFE00], // 103.152.14.0/23
   [0x67981800, 0xFFFFFE00], // 103.152.24.0/23
   [0x67981C00, 0xFFFFFC00], // 103.152.28.0/22
   [0x67983800, 0xFFFFFE00], // 103.152.56.0/23
@@ -6659,6 +6658,7 @@ var DOMAINS = {
     "buzzorange": 0,
     "buzzsprout": 0,
     "bvpn": 0,
+    "ctinets": 0,
     "cpu-monkey": 0,
     "ctinews": 0,
     "cachefly": 0,
@@ -6888,7 +6888,9 @@ var DOMAINS = {
     "fullservicegame": 0,
     "furinkan": 0,
     "fxcm-chinese": 0,
-    "gitlab": 0,
+    "gitlab": {
+      "about": 0
+    },
     "g-queen": 0,
     "gab": 0,
     "gabocorp": 0,
@@ -7265,6 +7267,7 @@ var DOMAINS = {
     "nvdst": 0,
     "nybooks": 0,
     "nypost": 0,
+    "octocaptcha": 0,
     "onevps": 0,
     "onedrive": 0,
     "olelive": 0,
@@ -7288,6 +7291,9 @@ var DOMAINS = {
     "ovpn": 0,
     "owltail": 0,
     "oxfordscholarship": 0,
+    "palworldgame": {
+      "api": 0
+    },
     "pornmate": 0,
     "polymarket": 0,
     "proxz": 0,
@@ -7770,6 +7776,7 @@ var DOMAINS = {
     "vrchat": 0,
     "vrporn": 0,
     "vtunnel": 0,
+    "wikipedia": 0,
     "walletconnect": 0,
     "waffle1999": 0,
     "wallmama": 0,
@@ -8187,6 +8194,7 @@ var DOMAINS = {
     "huayuworld": 0,
     "humanrightspressawards": 0,
     "hxwk": 0,
+    "interseclab": 0,
     "ipify": {
       "@": 0,
       "*": 1
@@ -9382,8 +9390,7 @@ var DOMAINS = {
     "asianews": 0,
     "blockcast": 0,
     "epochtimes": 0,
-    "libredd": 0,
-    "uderzo": 0
+    "libredd": 0
   },
   "im": {
     "cmx": 0,
