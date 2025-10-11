@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-10-04T12:20:26
+// Time: 2025-10-11T12:20:37
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -173,6 +173,7 @@ var CHINA = [
   [0x0EC40000, 0xFFFE0000], // 14.196.0.0/15
   [0x0ECC0000, 0xFFFE0000], // 14.204.0.0/15
   [0x0ED00000, 0xFFF00000], // 14.208.0.0/12
+  [0x1785BC00, 0xFFFFFF00], // 23.133.188.0/24
   [0x1B008000, 0xFFFFF800], // 27.0.128.0/21
   [0x1B00A000, 0xFFFFF800], // 27.0.160.0/21
   [0x1B00BC00, 0xFFFFFC00], // 27.0.188.0/22
@@ -2293,7 +2294,6 @@ var CHINA = [
   [0x679B4C00, 0xFFFFFE00], // 103.155.76.0/23
   [0x679B6400, 0xFFFFFE00], // 103.155.100.0/23
   [0x679B6E00, 0xFFFFFE00], // 103.155.110.0/23
-  [0x679B7800, 0xFFFFFE00], // 103.155.120.0/23
   [0x679BD600, 0xFFFFFE00], // 103.155.214.0/23
   [0x679BF800, 0xFFFFFE00], // 103.155.248.0/23
   [0x679C1C00, 0xFFFFFE00], // 103.156.28.0/23
@@ -7733,6 +7733,7 @@ var DOMAINS = {
     "uujiasu": 0,
     "uwants": 0,
     "uyghurtribunal": 0,
+    "vimeocdn": 0,
     "vocaroo": 0,
     "v2ray": 0,
     "v2raycn": 0,
@@ -8249,6 +8250,7 @@ var DOMAINS = {
     "moegirl": {
       "m": 0
     },
+    "marxists": 0,
     "matrix": 0,
     "md-t": 0,
     "mercyprophet": 0,
@@ -8546,6 +8548,7 @@ var DOMAINS = {
     "mega": 0,
     "mod": 0,
     "pen": 0,
+    "solscan": 0,
     "statically": {
       "cdn": 0
     },
@@ -11913,7 +11916,6 @@ var BLACKPAT = [
   "http://martsangkagyuofficial.org*",
   "*maruta.be/forget*",
   "*.marxist.com*",
-  "*.marxists.org/chinese*",
   "*mayimayi.com*",
   "*.maxing.jp*",
   "*.mcaf.ee*",
