@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-10-11T12:20:37
+// Time: 2025-10-18T12:21:27
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -6109,6 +6109,7 @@ var DOMAINS = {
     "spiderpool": 0,
     "btc": 0,
     "w-pool": 0,
+    "xn--u2u927b": 0,
     "xn--4gq171p": 0,
     "xn--i2ru8q2qg": 0,
     "xn--noss43i": 0,
@@ -6507,6 +6508,7 @@ var DOMAINS = {
     "91porny": 0,
     "99btgc01": 0,
     "9bis": 0,
+    "asianfanfics": 0,
     "amuletmc": 0,
     "abplive": 0,
     "aljazeera": 0,
@@ -7564,6 +7566,7 @@ var DOMAINS = {
     "surfshark": 0,
     "sydneytoday": 0,
     "syncback": 0,
+    "trustwallet": 0,
     "talkatone": 0,
     "thehansindia": 0,
     "tnt-ea": {
@@ -8053,7 +8056,6 @@ var DOMAINS = {
     "bitcointalk": 0,
     "bjzc": 0,
     "braumeister": 0,
-    "btdigg": 0,
     "btku": 0,
     "budaedu": 0,
     "bullog": 0,
@@ -8419,6 +8421,7 @@ var DOMAINS = {
     "vimperator": 0,
     "voicettank": 0,
     "vot": 0,
+    "websdr": 0,
     "work2icu": 0,
     "waltermartin": 0,
     "wan-press": {
@@ -9292,6 +9295,7 @@ var DOMAINS = {
   },
   "es": {
     "spreadshirt": 0,
+    "freegpt": 0,
     "lastfm": 0,
     "twittertim": 0,
     "unblocksit": 0,
@@ -9663,6 +9667,16 @@ var DOMAINS = {
   "watch": {
     "fb": 0
   },
+  "goog": {
+    "@": 0,
+    "pki": {
+      "@": 0,
+      "i": 1,
+      "ocsp": 1
+    },
+    "translate": 0,
+    "usercontent": 0
+  },
   "gle": {
     "@": 0,
     "goo": 0
@@ -9706,15 +9720,6 @@ var DOMAINS = {
   },
   "soy": {
     "iam": 0
-  },
-  "goog": {
-    "pki": {
-      "@": 0,
-      "i": 1,
-      "ocsp": 1
-    },
-    "translate": 0,
-    "usercontent": 0
   },
   "codes": {
     "plus": 0
@@ -9856,6 +9861,12 @@ var DOMAINS = {
   },
   "nico": {
     "dmc": 0
+  },
+  "tech": {
+    "freegpt": 0,
+    "funami": {
+      "wikiless": 0
+    }
   },
   "zone": {
     "froth": 0
@@ -10057,11 +10068,6 @@ var DOMAINS = {
   "cat": {
     "wxw": 0
   },
-  "tech": {
-    "funami": {
-      "wikiless": 0
-    }
-  },
   "bible": {
     "wd": 0
   },
@@ -10081,6 +10087,9 @@ var DOMAINS = {
   },
   "tokyo": {
     "yunomi": 0
+  },
+  "ec": {
+    "z-library": 0
   },
   "gd": {
     "z-lib": 0
