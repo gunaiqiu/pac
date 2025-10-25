@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-10-18T12:21:27
+// Time: 2025-10-25T12:21:21
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2201,7 +2201,6 @@ var CHINA = [
   [0x67912600, 0xFFFFFE00], // 103.145.38.0/23
   [0x67912A00, 0xFFFFFE00], // 103.145.42.0/23
   [0x67913C00, 0xFFFFFE00], // 103.145.60.0/23
-  [0x67914800, 0xFFFFFE00], // 103.145.72.0/23
   [0x67915600, 0xFFFFFE00], // 103.145.86.0/23
   [0x67915C00, 0xFFFFFC00], // 103.145.92.0/22
   [0x67916200, 0xFFFFFE00], // 103.145.98.0/23
@@ -3629,6 +3628,9 @@ var CHINA = [
   [0x86AF0000, 0xFFFF0000], // 134.175.0.0/16
   [0x893B3B00, 0xFFFFFF00], // 137.59.59.0/24
   [0x893B5800, 0xFFFFFC00], // 137.59.88.0/22
+  [0x8AFC4800, 0xFFFFFE00], // 138.252.72.0/23
+  [0x8AFC4E00, 0xFFFFFE00], // 138.252.78.0/23
+  [0x8AFC6000, 0xFFFFFE00], // 138.252.96.0/23
   [0x8B053800, 0xFFFFF800], // 139.5.56.0/21
   [0x8B055000, 0xFFFFFC00], // 139.5.80.0/22
   [0x8B055C00, 0xFFFFFC00], // 139.5.92.0/22
@@ -6751,6 +6753,7 @@ var DOMAINS = {
     "curvefish": 0,
     "cyberghostvpn": 0,
     "cynscribe": 0,
+    "dockerstatus": 0,
     "deno": {
       "docs": 0
     },
