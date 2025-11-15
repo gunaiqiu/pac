@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-11-08T12:21:53
+// Time: 2025-11-15T12:21:50
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2201,7 +2201,6 @@ var CHINA = [
   [0x67912600, 0xFFFFFE00], // 103.145.38.0/23
   [0x67912A00, 0xFFFFFE00], // 103.145.42.0/23
   [0x67913C00, 0xFFFFFE00], // 103.145.60.0/23
-  [0x67915600, 0xFFFFFE00], // 103.145.86.0/23
   [0x67915C00, 0xFFFFFC00], // 103.145.92.0/22
   [0x67916200, 0xFFFFFE00], // 103.145.98.0/23
   [0x6791BC00, 0xFFFFFC00], // 103.145.188.0/22
@@ -6512,6 +6511,7 @@ var DOMAINS = {
     "91porny": 0,
     "99btgc01": 0,
     "9bis": 0,
+    "aoxvpn": 0,
     "asianfanfics": 0,
     "amuletmc": 0,
     "abplive": 0,
@@ -6665,6 +6665,9 @@ var DOMAINS = {
     "buzzorange": 0,
     "buzzsprout": 0,
     "bvpn": 0,
+    "canva": 0,
+    "chatpdf": 0,
+    "chat": 0,
     "ctinets": 0,
     "cpu-monkey": 0,
     "ctinews": 0,
@@ -6838,6 +6841,8 @@ var DOMAINS = {
     "expecthim": 0,
     "expressvpn": 0,
     "eyny": 0,
+    "hyperbeam": 0,
+    "flowgpt": 0,
     "flexclip": 0,
     "feedly": 0,
     "fuckccp": 0,
@@ -6961,6 +6966,7 @@ var DOMAINS = {
     "gospelherald": 0,
     "gumroad": 0,
     "gunsamerica": 0,
+    "hicairo": 0,
     "herominers": 0,
     "hindustantimes": 0,
     "haiwaikan": 0,
@@ -7087,7 +7093,6 @@ var DOMAINS = {
     "jgoodies": 0,
     "jiangweiping": 0,
     "jiaoyou8": 0,
-    "jichangtj": 0,
     "jiepang": {
       "hk": 0,
       "tw": 0
@@ -7276,6 +7281,9 @@ var DOMAINS = {
     "nvdst": 0,
     "nybooks": 0,
     "nypost": 0,
+    "oaiusercontent": {
+      "files": 0
+    },
     "octocaptcha": 0,
     "onevps": 0,
     "onedrive": 0,
@@ -7452,6 +7460,7 @@ var DOMAINS = {
     "rssmeme": 0,
     "rumble": 0,
     "rusvpn": 0,
+    "sora": 0,
     "ssrtool": 0,
     "silvergatebank": 0,
     "slides": 0,
@@ -7572,6 +7581,7 @@ var DOMAINS = {
     "surfshark": 0,
     "sydneytoday": 0,
     "syncback": 0,
+    "terobox": 0,
     "temu": 0,
     "trustwallet": 0,
     "talkatone": 0,
@@ -8118,7 +8128,6 @@ var DOMAINS = {
     "daliulian": 0,
     "deadhouse": 0,
     "deepai": 0,
-    "democrats": 0,
     "diaoyuislands": 0,
     "diyin": 0,
     "dnscrypt": 0,
@@ -8669,8 +8678,10 @@ var DOMAINS = {
       "cloud": 0
     },
     "devv": 0,
+    "forefront": 0,
     "jan": 0,
     "javfinder": 0,
+    "lmarena": 0,
     "mlc": 0,
     "perplexity": 0,
     "suno": 0,
@@ -9162,11 +9173,13 @@ var DOMAINS = {
     "betternet": 0,
     "carrd": 0,
     "cccat": 0,
+    "darmau": 0,
     "decodet": 0,
     "feeder": 0,
     "huggingface": 0,
     "kuaichedao": 0,
     "pandapow": 0,
+    "rentry": 0,
     "radioline": 0,
     "swapspace": 0,
     "tcpspeed": 0,
@@ -9441,6 +9454,7 @@ var DOMAINS = {
     "mastodon": 0,
     "abc": 0,
     "2049bbs": 0,
+    "cchostvps": 0,
     "fuckccp": 0,
     "gooday": 0,
     "hexieshe": 0,
@@ -9631,7 +9645,10 @@ var DOMAINS = {
       "csw": 0,
       "proxynetwork": 0
     },
-    "kukuku": 0
+    "kukuku": 0,
+    "sntp": {
+      "lt": 0
+    }
   },
   "design": {
     "facebook": 0
@@ -9831,8 +9848,14 @@ var DOMAINS = {
   "movie": {
     "av": 0
   },
+  "chat": {
+    "bettergpt": 0,
+    "rocket": 0,
+    "simplex": 0
+  },
   "art": {
-    "beijing2022": 0
+    "beijing2022": 0,
+    "lexica": 0
   },
   "asia": {
     "bod": 0
@@ -9969,6 +9992,9 @@ var DOMAINS = {
   "life": {
     "kxsw": 0
   },
+  "do": {
+    "linux": 0
+  },
   "ws": {
     "localdomain": 0,
     "missav": 0,
@@ -10030,10 +10056,6 @@ var DOMAINS = {
   },
   "vg": {
     "ritter": 0
-  },
-  "chat": {
-    "rocket": 0,
-    "simplex": 0
   },
   "video": {
     "rou": 0
@@ -11025,9 +11047,6 @@ var BLACKPAT = [
   "*.daylife.com/topic/dalai_lama*",
   "*dcmilitary.com*",
   "*.definebabe.com*",
-  "*delicious.com/GFWbookmark*",
-  "*.democrats.org*",
-  "*.demosisto.hk*",
   "*.destroy-china.jp*",
   "*dfn.org*",
   "*dharmakara.net*",
