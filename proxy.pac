@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-11-15T12:21:50
+// Time: 2025-11-22T12:21:31
 
 var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
 var direct = "DIRECT";
@@ -2838,7 +2838,6 @@ var CHINA = [
   [0x67F0C800, 0xFFFFFC00], // 103.240.200.0/22
   [0x67F0F400, 0xFFFFFC00], // 103.240.244.0/22
   [0x67F10C00, 0xFFFFFC00], // 103.241.12.0/22
-  [0x67F14800, 0xFFFFFC00], // 103.241.72.0/22
   [0x67F15C00, 0xFFFFFC00], // 103.241.92.0/22
   [0x67F16000, 0xFFFFFC00], // 103.241.96.0/22
   [0x67F1A000, 0xFFFFFC00], // 103.241.160.0/22
@@ -3690,6 +3689,8 @@ var CHINA = [
   [0x9030DC00, 0xFFFFFC00], // 144.48.220.0/22
   [0x9030FC00, 0xFFFFFC00], // 144.48.252.0/22
   [0x90340000, 0xFFFF0000], // 144.52.0.0/16
+  [0x904F0400, 0xFFFFFE00], // 144.79.4.0/23
+  [0x904F0A00, 0xFFFFFE00], // 144.79.10.0/23
   [0x907B0000, 0xFFFF0000], // 144.123.0.0/16
   [0x90FF0000, 0xFFFF0000], // 144.255.0.0/16
   [0x9238C000, 0xFFFFC000], // 146.56.192.0/18
@@ -6112,6 +6113,7 @@ var DOMAINS = {
     "spiderpool": 0,
     "btc": 0,
     "w-pool": 0,
+    "xn--9iqy04a7fi01l": 0,
     "xn--u2u927b": 0,
     "xn--4gq171p": 0,
     "xn--i2ru8q2qg": 0,
@@ -6297,6 +6299,7 @@ var DOMAINS = {
     "bbcchinese": 0,
     "bloomberg": 0,
     "bloombergview": 0,
+    "cloudflarestatus": 0,
     "cloudflare-dns": 0,
     "dynu": 0,
     "accountkit": 0,
@@ -6511,6 +6514,7 @@ var DOMAINS = {
     "91porny": 0,
     "99btgc01": 0,
     "9bis": 0,
+    "adguard-vpn": 0,
     "aoxvpn": 0,
     "asianfanfics": 0,
     "amuletmc": 0,
@@ -6902,6 +6906,7 @@ var DOMAINS = {
     "fullservicegame": 0,
     "furinkan": 0,
     "fxcm-chinese": 0,
+    "greatfirevpn": 0,
     "gitlab": {
       "about": 0
     },
@@ -6919,6 +6924,7 @@ var DOMAINS = {
     "gazotube": 0,
     "gclubs": 0,
     "gcmasia": 0,
+    "gekikame": 0,
     "genius": 0,
     "getastrill": 0,
     "getcloak": 0,
@@ -6966,6 +6972,7 @@ var DOMAINS = {
     "gospelherald": 0,
     "gumroad": 0,
     "gunsamerica": 0,
+    "hbomax": 0,
     "hicairo": 0,
     "herominers": 0,
     "hindustantimes": 0,
@@ -7308,6 +7315,7 @@ var DOMAINS = {
     "ovpn": 0,
     "owltail": 0,
     "oxfordscholarship": 0,
+    "picsart": 0,
     "palworldgame": {
       "api": 0
     },
@@ -7431,6 +7439,7 @@ var DOMAINS = {
     "qoos": 0,
     "efksoft": 0,
     "qstatus": 0,
+    "rustdesk": 0,
     "radmin-vpn": 0,
     "rule34video": 0,
     "radiovncr": 0,
@@ -8437,6 +8446,7 @@ var DOMAINS = {
     "vimperator": 0,
     "voicettank": 0,
     "vot": 0,
+    "wikiunblocked": 0,
     "websdr": 0,
     "work2icu": 0,
     "waltermartin": 0,
@@ -9595,6 +9605,7 @@ var DOMAINS = {
     "tfhub": 0,
     "web": 0,
     "tg": 0,
+    "ai": 0,
     "deno": 0,
     "fuchsia": 0,
     "unlock-music": {
@@ -9778,6 +9789,7 @@ var DOMAINS = {
   },
   "sk": {
     "1lib": 0,
+    "library-access": 0,
     "yadi": 0,
     "z-library": 0
   },
@@ -9814,7 +9826,10 @@ var DOMAINS = {
     "6do": 0
   },
   "rip": {
-    "acg": 0
+    "acg": 0,
+    "mij": 0,
+    "mji": 0,
+    "mjj": 0
   },
   "bar": {
     "alive": 0
@@ -10020,6 +10035,9 @@ var DOMAINS = {
   "work": {
     "mlzs": 0,
     "nutsvpn": 0
+  },
+  "wiki": {
+    "namu": 0
   },
   "ninja": {
     "ninjaproxy": 0
@@ -11396,7 +11414,6 @@ var BLACKPAT = [
   "*gdzf.org*",
   "*geekerhome.com/2010/03/xixiang-project-cross-gfw*",
   "*.gekikame.com*",
-  "http://gekikame.com*",
   "*.gelbooru.com*",
   "http://gelbooru.com*",
   "*.geocities.co.jp*",
@@ -11927,7 +11944,6 @@ var BLACKPAT = [
   "*.lyfhk.net*",
   "http://lyfhk.net*",
   "*.lzmtnews.org*",
-  "*http://*.m-team.cc*",
   "*.macrovpn.com*",
   "*mahabodhi.org*",
   "*my.mail.ru*",
