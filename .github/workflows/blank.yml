@@ -48,6 +48,18 @@ jobs:
         github_token: ${{ secrets.SUPERSECRET }}
         branch: 'main'
         repository: 'gunaiqiu/pac'
+        
+    # Setup Rclone
+    - name: Setup Rclone
+      uses: AnimMouse/setup-rclone@v1
+      with:
+        rclone_config: ${{ secrets.RCLONE_CONFIG }}
+
+    - name: Rclone Sync 
+      run: |
+          rclone copy ./ 7niu-kodo:${{ secrets.KODO_BUCKET }} --transfers=8 --checkers=16 --exclude=.git/** --exclude=.github/** --exclude=README.md
+      env:
+        RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
 
 
 
