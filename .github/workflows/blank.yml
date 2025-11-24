@@ -25,7 +25,7 @@ jobs:
           gzip -d pac-gfwlist-ipdeny.com.txt.gz
     - name: modify file
       run: |
-          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:7897; DIRECT/' pac-gfwlist-ipdeny.com.txt
+          sed -i 's/__PROXY__/SOCKS5 127.0.0.1:1080; DIRECT/' pac-gfwlist-ipdeny.com.txt
     - name: rename file
       run: |
           mv pac-gfwlist-ipdeny.com.txt proxy.pac
