@@ -2,7 +2,7 @@
 // Source: https://github.com/iBug/pac
 // Time: 2025-11-22T12:21:31
 
-var proxy = SOCKS5 127.0.0.1:7897; DIRECT;
+var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
 
 function belongsToSubnet(host, list) {
