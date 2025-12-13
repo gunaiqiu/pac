@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-12-06T12:23:34
+// Time: 2025-12-13T12:23:57
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2283,7 +2283,6 @@ var CHINA = [
   [0x679AA400, 0xFFFFFE00], // 103.154.164.0/23
   [0x679AA800, 0xFFFFFE00], // 103.154.168.0/23
   [0x679B0E00, 0xFFFFFE00], // 103.155.14.0/23
-  [0x679B1000, 0xFFFFFE00], // 103.155.16.0/23
   [0x679B2200, 0xFFFFFE00], // 103.155.34.0/23
   [0x679B3000, 0xFFFFFE00], // 103.155.48.0/23
   [0x679B4C00, 0xFFFFFE00], // 103.155.76.0/23
@@ -2312,7 +2311,6 @@ var CHINA = [
   [0x679EBE00, 0xFFFFFE00], // 103.158.190.0/23
   [0x679EC800, 0xFFFFFE00], // 103.158.200.0/23
   [0x679EE000, 0xFFFFFE00], // 103.158.224.0/23
-  [0x679F5000, 0xFFFFFE00], // 103.159.80.0/23
   [0x679F7A00, 0xFFFFFE00], // 103.159.122.0/23
   [0x679F7C00, 0xFFFFFE00], // 103.159.124.0/23
   [0x679F8600, 0xFFFFFE00], // 103.159.134.0/23
@@ -3699,6 +3697,7 @@ var CHINA = [
   [0x904F2A00, 0xFFFFFE00], // 144.79.42.0/23
   [0x904F3600, 0xFFFFFE00], // 144.79.54.0/23
   [0x904F4600, 0xFFFFFE00], // 144.79.70.0/23
+  [0x904F5400, 0xFFFFFE00], // 144.79.84.0/23
   [0x907B0000, 0xFFFF0000], // 144.123.0.0/16
   [0x90FF0000, 0xFFFF0000], // 144.255.0.0/16
   [0x9238C000, 0xFFFFC000], // 146.56.192.0/18
@@ -6522,6 +6521,7 @@ var DOMAINS = {
     "91porny": 0,
     "99btgc01": 0,
     "9bis": 0,
+    "anuneko": 0,
     "adguard-vpn": 0,
     "aoxvpn": 0,
     "asianfanfics": 0,
@@ -7447,6 +7447,7 @@ var DOMAINS = {
     "qoos": 0,
     "efksoft": 0,
     "qstatus": 0,
+    "radiojar": 0,
     "rustdesk": 0,
     "radmin-vpn": 0,
     "rule34video": 0,
@@ -8257,6 +8258,7 @@ var DOMAINS = {
     "italiatibet": 0,
     "iuhrdf": 0,
     "iyouport": 0,
+    "jhelab": 0,
     "jamestown": 0,
     "javakiba": 0,
     "jingpin": 0,
@@ -8702,6 +8704,7 @@ var DOMAINS = {
     "javfinder": 0,
     "lmarena": 0,
     "mlc": 0,
+    "podwise": 0,
     "perplexity": 0,
     "suno": 0,
     "wombo": 0,
@@ -9198,6 +9201,7 @@ var DOMAINS = {
     "huggingface": 0,
     "kuaichedao": 0,
     "pandapow": 0,
+    "radio": 0,
     "rentry": 0,
     "radioline": 0,
     "swapspace": 0,
