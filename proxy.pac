@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-12-13T12:23:57
+// Time: 2025-12-20T12:23:45
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2269,7 +2269,6 @@ var CHINA = [
   [0x67996400, 0xFFFFFE00], // 103.153.100.0/23
   [0x67997200, 0xFFFFFE00], // 103.153.114.0/23
   [0x67997A00, 0xFFFFFE00], // 103.153.122.0/23
-  [0x67998000, 0xFFFFFE00], // 103.153.128.0/23
   [0x67998400, 0xFFFFFE00], // 103.153.132.0/23
   [0x67998A00, 0xFFFFFE00], // 103.153.138.0/23
   [0x67999200, 0xFFFFFE00], // 103.153.146.0/23
@@ -3698,6 +3697,8 @@ var CHINA = [
   [0x904F3600, 0xFFFFFE00], // 144.79.54.0/23
   [0x904F4600, 0xFFFFFE00], // 144.79.70.0/23
   [0x904F5400, 0xFFFFFE00], // 144.79.84.0/23
+  [0x904F7600, 0xFFFFFE00], // 144.79.118.0/23
+  [0x904F9400, 0xFFFFFE00], // 144.79.148.0/23
   [0x907B0000, 0xFFFF0000], // 144.123.0.0/16
   [0x90FF0000, 0xFFFF0000], // 144.255.0.0/16
   [0x9238C000, 0xFFFFC000], // 146.56.192.0/18
@@ -6593,6 +6594,7 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "bitbaby": 0,
     "bt4gprx": 0,
     "bitget": 0,
     "blackmagicdesign": 0,
@@ -7042,6 +7044,7 @@ var DOMAINS = {
     "huhangfei": 0,
     "hung-ya": 0,
     "hyperrate": 0,
+    "idcflare": 0,
     "itiger": 0,
     "india": 0,
     "imago-images": 0,
@@ -9483,6 +9486,7 @@ var DOMAINS = {
     "hexieshe": 0,
     "honven": 0,
     "mirror": 0,
+    "partnerstack": 0,
     "uvwxyz": 0,
     "yyjlymb": 0,
     "zodgame": 0
