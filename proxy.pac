@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-12-20T12:23:45
+// Time: 2025-12-27T12:24:34
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -7259,6 +7259,7 @@ var DOMAINS = {
     "myparagliding": 0,
     "mypopescu": 0,
     "myspacecdn": 0,
+    "nephobox": 0,
     "naver": 0,
     "newindianexpress": 0,
     "news18": 0,
@@ -7326,6 +7327,9 @@ var DOMAINS = {
     "ovpn": 0,
     "owltail": 0,
     "oxfordscholarship": 0,
+    "pocketcasts": {
+      "static": 0
+    },
     "picsart": 0,
     "palworldgame": {
       "api": 0
@@ -8022,7 +8026,6 @@ var DOMAINS = {
     "rocksdb": 0,
     "ampproject": 0,
     "certificate-transparency": 0,
-    "chromium": 0,
     "data-vocabulary": 0,
     "getoutline": 0,
     "godoc": 0,
@@ -8705,6 +8708,7 @@ var DOMAINS = {
     "forefront": 0,
     "jan": 0,
     "javfinder": 0,
+    "lovart": 0,
     "lmarena": 0,
     "mlc": 0,
     "podwise": 0,
