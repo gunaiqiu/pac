@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2025-12-27T12:24:34
+// Time: 2026-01-03T12:25:03
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2949,6 +2949,7 @@ var CHINA = [
   [0x67FFD000, 0xFFFFFE00], // 103.255.208.0/23
   [0x67FFD400, 0xFFFFFC00], // 103.255.212.0/22
   [0x67FFE400, 0xFFFFFC00], // 103.255.228.0/22
+  [0x68A71100, 0xFFFFFF00], // 104.167.17.0/24
   [0x6A000000, 0xFFFFFF00], // 106.0.0.0/24
   [0x6A000200, 0xFFFFFE00], // 106.0.2.0/23
   [0x6A000400, 0xFFFFFC00], // 106.0.4.0/22
@@ -5667,6 +5668,7 @@ var DOMAINS = {
     "12vpn": 0,
     "8z1": 0,
     "9bis": 0,
+    "aljazeera": 0,
     "arstechnica": {
       "cdn": 0
     },
@@ -6773,9 +6775,6 @@ var DOMAINS = {
     "cyberghostvpn": 0,
     "cynscribe": 0,
     "dockerstatus": 0,
-    "deno": {
-      "docs": 0
-    },
     "disneyplus": 0,
     "doubiyunbackup": 0,
     "dadazim": 0,
@@ -6916,6 +6915,7 @@ var DOMAINS = {
     "fullservicegame": 0,
     "furinkan": 0,
     "fxcm-chinese": 0,
+    "gfwbao": 0,
     "greatfirevpn": 0,
     "gitlab": {
       "about": 0
@@ -7378,6 +7378,7 @@ var DOMAINS = {
     "pin6": 0,
     "pinimg": 0,
     "pinoy-n": 0,
+    "pinterest": 0,
     "pixeldrain": 0,
     "pixelqi": 0,
     "pkqjiasu": 0,
@@ -7485,6 +7486,7 @@ var DOMAINS = {
     "rssmeme": 0,
     "rumble": 0,
     "rusvpn": 0,
+    "steamladder": 0,
     "sora": 0,
     "ssrtool": 0,
     "silvergatebank": 0,
@@ -8511,6 +8513,7 @@ var DOMAINS = {
     "incredibox": 0,
     "info-graf": 0,
     "iphonix": 0,
+    "pinterest": 0,
     "radio-en-ligne": 0,
     "rfi": 0,
     "ultravpn": 0
@@ -8541,6 +8544,7 @@ var DOMAINS = {
     "mobileways": 0,
     "oojj": 0,
     "otto": 0,
+    "pinterest": 0,
     "privacybox": 0,
     "prosiben": 0,
     "savetibet": 0,
@@ -8627,6 +8631,7 @@ var DOMAINS = {
       "aobo": 0,
       "illawarramercury": 0,
       "oursteps": 0,
+      "pinterest": 0,
       "smh": 0,
       "theaustralian": {
         "cn": 0
@@ -9045,6 +9050,7 @@ var DOMAINS = {
     "nexton-net": 0,
     "nicovideo": 0,
     "orn": 0,
+    "pinterest": 0,
     "r10s": 0,
     "tibethouse": 0,
     "twipple": 0,
@@ -9126,8 +9132,7 @@ var DOMAINS = {
     "lesoir": 0
   },
   "*": {
-    "gettyimages": 0,
-    "pinterest": 0
+    "gettyimages": 0
   },
   "cn": {
     "gettyimages": 1,
@@ -9140,7 +9145,6 @@ var DOMAINS = {
     "org": {
       "openwrt": 1
     },
-    "pinterest": 1,
     "com": {
       "wallproxy": 1,
       "sina": 1,
@@ -9183,6 +9187,7 @@ var DOMAINS = {
     "luckymobile": 0,
     "metrolife": 0,
     "peace": 0,
+    "pinterest": 0,
     "psiphon": 0,
     "radio-canada": 0,
     "rcinet": 0,
@@ -9350,6 +9355,7 @@ var DOMAINS = {
     "spreadshirt": 0,
     "freegpt": 0,
     "lastfm": 0,
+    "pinterest": 0,
     "twittertim": 0,
     "unblocksit": 0,
     "xvideos": 0
@@ -9362,6 +9368,7 @@ var DOMAINS = {
     "moon": 0,
     "omny": 0,
     "overcast": 0,
+    "pdst": 0,
     "ping": 0,
     "player": 0,
     "soundon": 0,
@@ -9454,7 +9461,8 @@ var DOMAINS = {
     "asianews": 0,
     "blockcast": 0,
     "epochtimes": 0,
-    "libredd": 0
+    "libredd": 0,
+    "pinterest": 0
   },
   "im": {
     "cmx": 0,
@@ -9627,7 +9635,6 @@ var DOMAINS = {
     "web": 0,
     "tg": 0,
     "ai": 0,
-    "deno": 0,
     "fuchsia": 0,
     "unlock-music": {
       "demo": 0
@@ -9667,6 +9674,7 @@ var DOMAINS = {
       "lamnia": 0,
       "my-private-network": 0,
       "national-lottery": 0,
+      "pinterest": 0,
       "standard": 0,
       "thechasernews": 0,
       "telegraph": 0,
@@ -9720,11 +9728,17 @@ var DOMAINS = {
     "idope": 0,
     "ipredator": 0,
     "nobel": 0,
+    "pinterest": 0,
     "share-videos": 0,
     "singlelogin": 0
   },
   "watch": {
     "fb": 0
+  },
+  "org ": {
+    "chromium": {
+      "issues": 0
+    }
   },
   "goog": {
     "@": 0,
@@ -9792,7 +9806,8 @@ var DOMAINS = {
   "ph": {
     "legra": 0,
     "telegra": 0,
-    "archive": 0
+    "archive": 0,
+    "pinterest": 0
   },
   "directory": {
     "quiz": 0
@@ -9944,7 +9959,8 @@ var DOMAINS = {
     "free": 0
   },
   "audio": {
-    "fish": 0
+    "fish": 0,
+    "up": 0
   },
   "cm": {
     "fw": 0
@@ -10046,7 +10062,8 @@ var DOMAINS = {
     "co": {
       "mega": 0
     },
-    "mega": 0
+    "mega": 0,
+    "pinterest": 0
   },
   "mg": {
     "mirrormedia": 0,
@@ -10079,6 +10096,23 @@ var DOMAINS = {
   "pub": {
     "pandafan": 0,
     "xt": 0
+  },
+  "mx": {
+    "com": {
+      "pinterest": 0
+    }
+  },
+  "cl": {
+    "pinterest": 0
+  },
+  "at": {
+    "pinterest": 0
+  },
+  "ie": {
+    "pinterest": 0
+  },
+  "pt": {
+    "pinterest": 0
   },
   "click": {
     "popxi": 0
