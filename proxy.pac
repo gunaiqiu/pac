@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-01-03T12:25:03
+// Time: 2026-01-10T12:24:51
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2177,7 +2177,6 @@ var CHINA = [
   [0x678EAC00, 0xFFFFFE00], // 103.142.172.0/23
   [0x678EB400, 0xFFFFFE00], // 103.142.180.0/23
   [0x678EBA00, 0xFFFFFE00], // 103.142.186.0/23
-  [0x678EBE00, 0xFFFFFE00], // 103.142.190.0/23
   [0x678EDC00, 0xFFFFFE00], // 103.142.220.0/23
   [0x678EEA00, 0xFFFFFE00], // 103.142.234.0/23
   [0x678EEE00, 0xFFFFFE00], // 103.142.238.0/23
@@ -2269,6 +2268,7 @@ var CHINA = [
   [0x67996400, 0xFFFFFE00], // 103.153.100.0/23
   [0x67997200, 0xFFFFFE00], // 103.153.114.0/23
   [0x67997A00, 0xFFFFFE00], // 103.153.122.0/23
+  [0x67998000, 0xFFFFFE00], // 103.153.128.0/23
   [0x67998400, 0xFFFFFE00], // 103.153.132.0/23
   [0x67998A00, 0xFFFFFE00], // 103.153.138.0/23
   [0x67999200, 0xFFFFFE00], // 103.153.146.0/23
@@ -4058,6 +4058,8 @@ var CHINA = [
   [0xC08CD000, 0xFFFFF800], // 192.140.208.0/21
   [0xC0908000, 0xFFFF8000], // 192.144.128.0/17
   [0xC0C57100, 0xFFFFFF00], // 192.197.113.0/24
+  [0xC0E82200, 0xFFFFFE00], // 192.232.34.0/23
+  [0xC0E82C00, 0xFFFFFC00], // 192.232.44.0/22
   [0xC1700000, 0xFFFF0000], // 193.112.0.0/16
   [0xC1770000, 0xFFFFE000], // 193.119.0.0/19
   [0xC27FE500, 0xFFFFFF00], // 194.127.229.0/24
@@ -6774,6 +6776,7 @@ var DOMAINS = {
     "curvefish": 0,
     "cyberghostvpn": 0,
     "cynscribe": 0,
+    "dazn": 0,
     "dockerstatus": 0,
     "disneyplus": 0,
     "doubiyunbackup": 0,
@@ -6917,9 +6920,7 @@ var DOMAINS = {
     "fxcm-chinese": 0,
     "gfwbao": 0,
     "greatfirevpn": 0,
-    "gitlab": {
-      "about": 0
-    },
+    "gitlab": 0,
     "g-queen": 0,
     "gab": 0,
     "gabocorp": 0,
@@ -7893,6 +7894,7 @@ var DOMAINS = {
     "wufafangwen": 0,
     "wujieliulan": 0,
     "wwitv": 0,
+    "xcancel": 0,
     "xt": 0,
     "x-berry": 0,
     "x-art": 0,
@@ -8026,6 +8028,7 @@ var DOMAINS = {
     "obyte": 0,
     "tronscan": 0,
     "rocksdb": 0,
+    "chromium": 0,
     "ampproject": 0,
     "certificate-transparency": 0,
     "data-vocabulary": 0,
@@ -8326,6 +8329,7 @@ var DOMAINS = {
     "njactb": 0,
     "nokogiri": 0,
     "notepad-plus-plus": 0,
+    "ooni": 0,
     "october-review": 0,
     "ogaoga": 0,
     "ogate": 0,
@@ -8597,6 +8601,7 @@ var DOMAINS = {
     "metamask": 0,
     "mega": 0,
     "mod": 0,
+    "ooni": 0,
     "prismic": {
       "images": 0
     },
@@ -9735,10 +9740,8 @@ var DOMAINS = {
   "watch": {
     "fb": 0
   },
-  "org ": {
-    "chromium": {
-      "issues": 0
-    }
+  "studio": {
+    "ai": 0
   },
   "goog": {
     "@": 0,
