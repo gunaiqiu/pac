@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-01-10T12:24:51
+// Time: 2026-01-17T12:24:49
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2736,7 +2736,6 @@ var CHINA = [
   [0x67E62C00, 0xFFFFFC00], // 103.230.44.0/22
   [0x67E66000, 0xFFFFFC00], // 103.230.96.0/22
   [0x67E66E00, 0xFFFFFE00], // 103.230.110.0/23
-  [0x67E68000, 0xFFFFFE00], // 103.230.128.0/23
   [0x67E6C400, 0xFFFFFC00], // 103.230.196.0/22
   [0x67E6C800, 0xFFFFF800], // 103.230.200.0/21
   [0x67E6D400, 0xFFFFFC00], // 103.230.212.0/22
@@ -3745,6 +3744,7 @@ var CHINA = [
   [0x96F2F800, 0xFFFFFC00], // 150.242.248.0/22
   [0x96F80000, 0xFFFF0000], // 150.248.0.0/16
   [0x96FF0000, 0xFFFF0000], // 150.255.0.0/16
+  [0x979E0E00, 0xFFFFFE00], // 151.158.14.0/23
   [0x98688000, 0xFFFF8000], // 152.104.128.0/17
   [0x98880000, 0xFFFF0000], // 152.136.0.0/16
   [0x99000000, 0xFFFF0000], // 153.0.0.0/16
@@ -6920,7 +6920,9 @@ var DOMAINS = {
     "fxcm-chinese": 0,
     "gfwbao": 0,
     "greatfirevpn": 0,
-    "gitlab": 0,
+    "gitlab": {
+      "about": 0
+    },
     "g-queen": 0,
     "gab": 0,
     "gabocorp": 0,
@@ -7714,8 +7716,10 @@ var DOMAINS = {
     "tuvpn": 0,
     "tumblr": 0,
     "slutmoonbeam": 0,
+    "mytvsuper": 0,
+    "tvbanywhere": 0,
     "tvb": {
-      "forum": 0,
+      "akamai": 0,
       "inews-api": 0
     },
     "tvboxnow": 0,
@@ -8778,6 +8782,9 @@ var DOMAINS = {
       "taiwannews": 0,
       "treemall": 0,
       "ttv": 0,
+      "tvbs": {
+        "news": 0
+      },
       "udn": 0,
       "uforadio": 0,
       "wealth": 0,
@@ -9703,6 +9710,7 @@ var DOMAINS = {
   },
   "in": {
     "facebook": 0,
+    "annas-archive": 0,
     "avdb": 0,
     "gongm": 0,
     "indiatoday": 0,
@@ -9864,6 +9872,14 @@ var DOMAINS = {
   "world": {
     "6do": 0
   },
+  "li": {
+    "annas-archive": 0,
+    "archive": 0,
+    "hongzhi": 0
+  },
+  "pm": {
+    "annas-archive": 0
+  },
   "rip": {
     "acg": 0,
     "mij": 0,
@@ -9883,10 +9899,6 @@ var DOMAINS = {
   "fo": {
     "archive": 0,
     "z-lib": 0
-  },
-  "li": {
-    "archive": 0,
-    "hongzhi": 0
   },
   "md": {
     "archive": 0
@@ -12968,8 +12980,6 @@ var BLACKPAT = [
   "*.tv.com*",
   "http://tv.com*",
   "*tvants.com*",
-  "*news.tvbs.com.tw*",
-  "*.tvboxnow.com*",
   "*tvider.com*",
   "*.tvmost.com.hk*",
   "*.tvplayvideos.com*",
