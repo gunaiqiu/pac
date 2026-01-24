@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-01-17T12:24:49
+// Time: 2026-01-24T12:25:53
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2320,7 +2320,6 @@ var CHINA = [
   [0x67A0FE00, 0xFFFFFE00], // 103.160.254.0/23
   [0x67A10E00, 0xFFFFFE00], // 103.161.14.0/23
   [0x67A16600, 0xFFFFFE00], // 103.161.102.0/23
-  [0x67A18A00, 0xFFFFFE00], // 103.161.138.0/23
   [0x67A1D000, 0xFFFFFE00], // 103.161.208.0/23
   [0x67A1DC00, 0xFFFFFE00], // 103.161.220.0/23
   [0x67A1FE00, 0xFFFFFE00], // 103.161.254.0/23
@@ -3745,6 +3744,9 @@ var CHINA = [
   [0x96F80000, 0xFFFF0000], // 150.248.0.0/16
   [0x96FF0000, 0xFFFF0000], // 150.255.0.0/16
   [0x979E0E00, 0xFFFFFE00], // 151.158.14.0/23
+  [0x979E4800, 0xFFFFFE00], // 151.158.72.0/23
+  [0x979E4E00, 0xFFFFFE00], // 151.158.78.0/23
+  [0x979E5000, 0xFFFFFE00], // 151.158.80.0/23
   [0x98688000, 0xFFFF8000], // 152.104.128.0/17
   [0x98880000, 0xFFFF0000], // 152.136.0.0/16
   [0x99000000, 0xFFFF0000], // 153.0.0.0/16
@@ -7830,6 +7832,7 @@ var DOMAINS = {
     "vrchat": 0,
     "vrporn": 0,
     "vtunnel": 0,
+    "weights": 0,
     "wikipedia": 0,
     "walletconnect": 0,
     "waffle1999": 0,
@@ -7918,6 +7921,7 @@ var DOMAINS = {
     "xvbelink": 0,
     "xvinlink": 0,
     "xxx": 0,
+    "youmind": 0,
     "y2mate": 0,
     "yakbutterblues": 0,
     "yam": 0,
