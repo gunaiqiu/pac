@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-01-24T12:25:53
+// Time: 2026-01-31T12:29:21
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -340,7 +340,8 @@ var CHINA = [
   [0x2AF40000, 0xFFFC0000], // 42.244.0.0/14
   [0x2AF80000, 0xFFF80000], // 42.248.0.0/13
   [0x2B880000, 0xFFF80000], // 43.136.0.0/13
-  [0x2B900000, 0xFFF80000], // 43.144.0.0/13
+  [0x2B900000, 0xFFFE0000], // 43.144.0.0/15
+  [0x2B940000, 0xFFFC0000], // 43.148.0.0/14
   [0x2BB00000, 0xFFF00000], // 43.176.0.0/12
   [0x2BC00000, 0xFFFC0000], // 43.192.0.0/14
   [0x2BC40000, 0xFFFE0000], // 43.196.0.0/15
@@ -2268,7 +2269,6 @@ var CHINA = [
   [0x67996400, 0xFFFFFE00], // 103.153.100.0/23
   [0x67997200, 0xFFFFFE00], // 103.153.114.0/23
   [0x67997A00, 0xFFFFFE00], // 103.153.122.0/23
-  [0x67998000, 0xFFFFFE00], // 103.153.128.0/23
   [0x67998400, 0xFFFFFE00], // 103.153.132.0/23
   [0x67998A00, 0xFFFFFE00], // 103.153.138.0/23
   [0x67999200, 0xFFFFFE00], // 103.153.146.0/23
@@ -3673,7 +3673,6 @@ var CHINA = [
   [0x8CF90000, 0xFFFF0000], // 140.249.0.0/16
   [0x8CFA0000, 0xFFFF0000], // 140.250.0.0/16
   [0x8CFF0000, 0xFFFF0000], // 140.255.0.0/16
-  [0x8E460000, 0xFFFF0000], // 142.70.0.0/16
   [0x8E560000, 0xFFFF0000], // 142.86.0.0/16
   [0x8F400000, 0xFFFF0000], // 143.64.0.0/16
   [0x90000000, 0xFFFF0000], // 144.0.0.0/16
@@ -6091,6 +6090,7 @@ var DOMAINS = {
       "login": 0,
       "rcam": 0
     },
+    "freeterabox": 0,
     "terabox": 0,
     "thinkgeek": 0,
     "thebodyshop-usa": 0,
@@ -6600,6 +6600,9 @@ var DOMAINS = {
     "axios": 0,
     "axureformac": 0,
     "azirevpn": 0,
+    "byspotify": {
+      "help": 0
+    },
     "bitbaby": 0,
     "bt4gprx": 0,
     "bitget": 0,
@@ -6685,6 +6688,9 @@ var DOMAINS = {
     "buzzorange": 0,
     "buzzsprout": 0,
     "bvpn": 0,
+    "crixet": {
+      "backend-v2": 0
+    },
     "canva": 0,
     "chatpdf": 0,
     "chat": 0,
@@ -7613,6 +7619,11 @@ var DOMAINS = {
     "surfshark": 0,
     "sydneytoday": 0,
     "syncback": 0,
+    "tritondigital": {
+      "pdn": {
+        "bbc": 0
+      }
+    },
     "terobox": 0,
     "temu": 0,
     "trustwallet": 0,
@@ -8731,6 +8742,7 @@ var DOMAINS = {
     "mlc": 0,
     "podwise": 0,
     "perplexity": 0,
+    "simianx": 0,
     "suno": 0,
     "wombo": 0,
     "x": 0
@@ -9112,6 +9124,7 @@ var DOMAINS = {
     "videomega": 0,
     "wav": 0,
     "woopie": 0,
+    "yfsp": 0,
     "yobt": 0
   },
   "ee": {
@@ -9381,6 +9394,9 @@ var DOMAINS = {
     "castbox": 0,
     "anchor": 0,
     "favstar": 0,
+    "megaphone": {
+      "dcs-spotify": 0
+    },
     "moon": 0,
     "omny": 0,
     "overcast": 0,
