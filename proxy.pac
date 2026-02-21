@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-02-14T12:29:51
+// Time: 2026-02-21T12:29:27
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -2297,7 +2297,6 @@ var CHINA = [
   [0x679CBA00, 0xFFFFFE00], // 103.156.186.0/23
   [0x679CE400, 0xFFFFFE00], // 103.156.228.0/23
   [0x679D1E00, 0xFFFFFE00], // 103.157.30.0/23
-  [0x679D8A00, 0xFFFFFE00], // 103.157.138.0/23
   [0x679DAE00, 0xFFFFFE00], // 103.157.174.0/23
   [0x679DD400, 0xFFFFFE00], // 103.157.212.0/23
   [0x679DEA00, 0xFFFFFE00], // 103.157.234.0/23
@@ -3843,7 +3842,6 @@ var CHINA = [
   [0xA0FA5A00, 0xFFFFFE00], // 160.250.90.0/23
   [0xA0FA6600, 0xFFFFFE00], // 160.250.102.0/23
   [0xA0FA6800, 0xFFFFFE00], // 160.250.104.0/23
-  [0xA0FA8C00, 0xFFFFFF00], // 160.250.140.0/24
   [0xA0FAA000, 0xFFFFFE00], // 160.250.160.0/23
   [0xA0FAAA00, 0xFFFFFE00], // 160.250.170.0/23
   [0xA0FAD600, 0xFFFFFE00], // 160.250.214.0/23
@@ -5826,6 +5824,7 @@ var DOMAINS = {
     "naitik": 0,
     "nekoslovakia": 0,
     "neowin": 0,
+    "nhentai": 0,
     "nutaku": 0,
     "opendemocracy": 0,
     "openid": 0,
@@ -6418,6 +6417,10 @@ var DOMAINS = {
       "fonts": 1,
       "ssl": 1,
       "www": 1
+    },
+    "gvt1": {
+      "@": 0,
+      "redirector": 1
     },
     "gvt3": 0,
     "html5rocks": 0,
@@ -7306,6 +7309,7 @@ var DOMAINS = {
     "nvdst": 0,
     "nybooks": 0,
     "nypost": 0,
+    "opencritic": 0,
     "oaiusercontent": {
       "files": 0
     },
@@ -7492,6 +7496,7 @@ var DOMAINS = {
     "rssmeme": 0,
     "rumble": 0,
     "rusvpn": 0,
+    "spacex": 0,
     "stephaniered": 0,
     "steamladder": 0,
     "sora": 0,
@@ -7983,10 +7988,7 @@ var DOMAINS = {
     "zorrovpn": 0,
     "zuola": 0,
     "zvereff": 0,
-    "zyxel": 0,
-    "gvt1": {
-      "redirector": 1
-    }
+    "zyxel": 0
   },
   "pl": {
     "miuipolska": 0,
@@ -8320,6 +8322,9 @@ var DOMAINS = {
       "www": 0
     },
     "mykomica": 0,
+    "nxtrace": {
+      "assets": 0
+    },
     "naacoalition": 0,
     "nalandabodhi": 0,
     "nalandawest": 0,
@@ -8472,6 +8477,7 @@ var DOMAINS = {
     "vimperator": 0,
     "voicettank": 0,
     "vot": 0,
+    "walletconnect": 0,
     "wikiunblocked": 0,
     "websdr": 0,
     "work2icu": 0,
@@ -8591,6 +8597,7 @@ var DOMAINS = {
     "4everland": {
       "ipfs": 0
     },
+    "akile": 0,
     "apiary": 0,
     "codeshare": 0,
     "docker": 0,
@@ -8605,6 +8612,7 @@ var DOMAINS = {
     "hackmd": 0,
     "itch": 0,
     "infura": 0,
+    "mosavi": 0,
     "metamask": 0,
     "mega": 0,
     "mod": 0,
@@ -8727,6 +8735,7 @@ var DOMAINS = {
     },
     "devv": 0,
     "forefront": 0,
+    "gmgn": 0,
     "jan": 0,
     "javfinder": 0,
     "lovart": 0,
@@ -8774,6 +8783,7 @@ var DOMAINS = {
       "ltn": 0,
       "lama": 0,
       "libertytimes": 0,
+      "meee": 0,
       "merit-times": 0,
       "momoshop": 0,
       "money-link": 0,
@@ -8803,8 +8813,12 @@ var DOMAINS = {
     },
     "technews": 0,
     "dailyview": 0,
+    "twgov": 0,
+    "gov": {
+      "@": 0,
+      "www": 1
+    },
     "org": {
-      "sef": 0,
       "kinmen": 0,
       "ait": 0,
       "covenantswatch": 0,
@@ -8829,46 +8843,6 @@ var DOMAINS = {
       "tpi": 0,
       "wufi": 0,
       "yam": 0
-    },
-    "gov": {
-      "moj": 0,
-      "anws": {
-        "aiss": 0
-      },
-      "archives": 0,
-      "cwb": {
-        "tacc": 0
-      },
-      "data": 0,
-      "exam": 0,
-      "ey": 0,
-      "fa": 0,
-      "fda": 0,
-      "hpa": 0,
-      "immigration": 0,
-      "itaiwan": 0,
-      "judicial": 0,
-      "ly": 0,
-      "mjib": 0,
-      "moeaic": 0,
-      "mofa": 0,
-      "mol": 0,
-      "mvdis": 0,
-      "nat": 0,
-      "nhi": 0,
-      "npa": 0,
-      "nsc": 0,
-      "ntbk": 0,
-      "ntbna": 0,
-      "ntbt": 0,
-      "pcc": 0,
-      "stat": 0,
-      "taipei": 0,
-      "taiwanjobs": 0,
-      "thb": 0,
-      "tipo": 0,
-      "wda": 0,
-      "npm": 0
     },
     "civilmedia": 0,
     "cofacts": 0,
@@ -9644,6 +9618,9 @@ var DOMAINS = {
     "web": 0,
     "tg": 0,
     "ai": 0,
+    "clashverge": {
+      "www": 0
+    },
     "fuchsia": 0,
     "unlock-music": {
       "demo": 0
@@ -10469,9 +10446,6 @@ var DOMAINS = {
     "missav": 0,
     "rmbl": 0
   },
-  "com]": {
-    "gvt1": 0
-  },
   "soy": {
     "iam": 0
   },
@@ -10900,7 +10874,6 @@ var BLACKPAT = [
   "http://mswe1.org*",
   "http://nbtvpn.com*",
   "http://newcenturymc.com*",
-  "http://nhentai.net*",
   "http://dynupdate.no-ip.com/*",
   "http://npnt.me*",
   "http://nradio.me*",
