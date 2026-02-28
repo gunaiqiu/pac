@@ -1,6 +1,6 @@
 // Author: iBug <ibug.io>
 // Source: https://github.com/iBug/pac
-// Time: 2026-02-21T12:29:27
+// Time: 2026-02-28T12:28:43
 
 var proxy = SOCKS5 127.0.0.1:1080; DIRECT;
 var direct = "DIRECT";
@@ -8411,6 +8411,9 @@ var DOMAINS = {
     "standwithhk": 0,
     "studentsforafreetibet": 0,
     "sylfoundation": 0,
+    "eff": {
+      "tor": 0
+    },
     "tukaani": 0,
     "thetatoken": 0,
     "taipeisociety": 0,
@@ -8452,6 +8455,7 @@ var DOMAINS = {
     "twiggit": 0,
     "twitter4j": 0,
     "twreporter": 0,
+    "uniswap": 0,
     "uc-japan": 0,
     "uhdwallpapers": 0,
     "uhrp": 0,
@@ -9363,7 +9367,8 @@ var DOMAINS = {
     },
     "archives": 0,
     "cecc": 0,
-    "cms": 0
+    "cms": 0,
+    "freedom": 0
   },
   "cz": {
     "ntdtv": 0,
